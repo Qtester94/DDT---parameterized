@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>New Test Data (2)</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>fa66c5dc-6b3e-4f80-b0d0-f77a5e66a7b3</dataFileGUID>
+   <dataSourceUrl>C:\Users\WeDoQA-ThinkPad-Man7\Downloads\Test DDT-BookingFreedom - Copy.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Sheet1</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

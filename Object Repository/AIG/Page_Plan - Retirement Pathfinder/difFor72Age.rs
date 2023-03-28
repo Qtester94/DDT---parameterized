@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>difFor72Age</name>
+   <tag></tag>
+   <elementGuidId>0fab292f-f1cf-4cae-884c-549b8c5ede4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div[18]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2b7ddcb4-7674-433c-8f9d-d7208ad5826d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tr odd</value>
+      <webElementGuid>a20a4e86-7136-4a76-9460-c6ab5e6ac956</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>72$730,030$19,972 (2.7%)$13,871$0$92,475$657,527</value>
+      <webElementGuid>fb5efb69-0141-44dc-87ef-228a53a4a13f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-9ab9m1-0 jJtgMy&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr odd&quot;]</value>
+      <webElementGuid>f0a963eb-5ca8-4308-bd0f-12b235f7d975</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div[18]</value>
+      <webElementGuid>4a9540c6-0874-4bac-bbf4-01b191498d4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$730,030'])[1]/following::div[1]</value>
+      <webElementGuid>f36eaf9c-56c8-49a7-ac09-72bb85f7a1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0'])[42]/following::div[2]</value>
+      <webElementGuid>8b796091-a20a-4210-91c8-497bc626f6bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]</value>
+      <webElementGuid>57037c13-c328-42d1-82ec-5a9fe528296a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '72$730,030$19,972 (2.7%)$13,871$0$92,475$657,527' or . = '72$730,030$19,972 (2.7%)$13,871$0$92,475$657,527')]</value>
+      <webElementGuid>04d521d7-6ee0-4227-9c6e-0a52433f5392</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

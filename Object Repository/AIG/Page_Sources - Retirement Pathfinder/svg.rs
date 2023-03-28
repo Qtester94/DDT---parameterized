@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg</name>
+   <tag></tag>
+   <elementGuidId>e9849d55-986b-4a11-a924-1f60bba4a381</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.AssetsList__EditButton-sc-1hp6jwl-2.dErZNF.btn-secondary.btn.btn-primary > svg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='$500,000'])[1]/following::*[name()='svg'][1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>192d2af1-8457-4bd4-b00c-40c913598b4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xmlns</name>
+      <type>Main</type>
+      <value>http://www.w3.org/2000/svg</value>
+      <webElementGuid>e1973edf-648c-4cbf-9510-499cc465ebe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>ad3b43ea-6687-4365-b2ac-26805bd66982</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>height</name>
+      <type>Main</type>
+      <value>20</value>
+      <webElementGuid>995d059f-ca09-4964-a8d7-9d920ebc1cb2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 20 20</value>
+      <webElementGuid>3fbe29fe-e546-4615-bdbb-452b5fc983ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;assets-tabpane-assets&quot;)/table[@class=&quot;table&quot;]/tbody[1]/tr[1]/td[8]/div[@class=&quot;AssetsList__RightButtons-sc-1hp6jwl-1 hmKZxL&quot;]/button[@class=&quot;AssetsList__EditButton-sc-1hp6jwl-2 dErZNF btn-secondary btn btn-primary&quot;]/svg[1]</value>
+      <webElementGuid>f0655157-ccf2-4d98-8468-1aecbd4e79ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$500,000'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>b450f281-14a3-4c7d-ada0-a7924abd423f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdrawal'])[1]/following::*[name()='svg'][1]</value>
+      <webElementGuid>0e4db4e5-4c7d-4ce8-825f-84daac1aff3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$500,000'])[2]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>efda01a5-188a-45ae-b50f-3a9dccb0ce55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ADD ASSET'])[1]/preceding::*[name()='svg'][2]</value>
+      <webElementGuid>3b62c21d-6c0e-4e16-b5a3-cd2c1011f252</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

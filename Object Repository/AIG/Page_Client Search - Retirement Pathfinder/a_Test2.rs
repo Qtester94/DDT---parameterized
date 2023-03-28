@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Test2</name>
+   <tag></tag>
+   <elementGuidId>58decd61-5ae8-4ad8-8852-2c3eb08f7c12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;wrapper&quot;]/div[2]/div[1]/div/div[4]/div[2]/div[3]/div/div[1]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = '/planning/plan/9b1e5ff1221e5239d2cece5afdd167dc' and @title = 'Go to Plan step' and (text() = 'Test2' or . = 'Test2')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>d0bb1a99-a884-4eb0-95cd-2f84e364da12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/planning/plan/9b1e5ff1221e5239d2cece5afdd167dc</value>
+      <webElementGuid>cadda5ad-f73a-46df-8662-d02d6df8d636</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Go to Plan step</value>
+      <webElementGuid>4b75ba82-b428-40b2-8e54-a9088a0030cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>components__UnderlineLink-sc-f99mkp-18 dnwPCM underline-link</value>
+      <webElementGuid>632b86f9-436b-42fd-985b-4c0d1d6ba4f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Test2</value>
+      <webElementGuid>ea9113ea-97f0-49c1-b0b1-0300848d31bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;Body__Root-sc-pdu5og-0 gNVTUf&quot;]/div[@class=&quot;Body__Container-sc-pdu5og-1 irbQMo&quot;]/div[@class=&quot;Clients__Page-sc-18hpakg-0 eTATCf&quot;]/div[@class=&quot;components__TBODY-sc-f99mkp-2 ClientPlans__TBODY-sc-v3q02y-0 kxJMFe jDmizd ru-y-scrollbar&quot;]/div[@class=&quot;components__TR-sc-f99mkp-3 iwKevw client-case client row&quot;]/div[@class=&quot;components__TD-sc-f99mkp-4 YRsyQ col-sm-6&quot;]/div[@class=&quot;draft row&quot;]/div[@class=&quot;col-6&quot;]/a[@class=&quot;components__UnderlineLink-sc-f99mkp-18 dnwPCM underline-link&quot;]</value>
+      <webElementGuid>a4a20cc8-226e-4309-ab02-c378f5137d0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div[2]/div/div/div[4]/div[2]/div[3]/div/div/a</value>
+      <webElementGuid>62b069ad-9d19-4997-a3d5-cd719bd354de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Test2')]</value>
+      <webElementGuid>4d989fba-a4f3-4776-92f5-cf304435d514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test2'])[1]/following::a[1]</value>
+      <webElementGuid>72300ac6-7fe0-4f70-b513-d6f87bda0511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdrawal Ends'])[1]/following::a[1]</value>
+      <webElementGuid>a5cff83c-726f-4708-96c6-08ca10fdc791</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mar 28, 2023'])[1]/preceding::a[1]</value>
+      <webElementGuid>b3780b8d-bcea-430e-b00c-ec24a09affd1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Presentation'])[2]/preceding::a[1]</value>
+      <webElementGuid>0807b566-e79d-4e14-9ef4-de3ede039608</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/planning/plan/9b1e5ff1221e5239d2cece5afdd167dc')]</value>
+      <webElementGuid>c9c4ee19-ab3a-4ee0-9dab-822c24469edb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/a</value>
+      <webElementGuid>57f923bb-69ac-4fcb-bc13-fe3d85cb520c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/planning/plan/9b1e5ff1221e5239d2cece5afdd167dc' and @title = 'Go to Plan step' and (text() = 'Test2' or . = 'Test2')]</value>
+      <webElementGuid>05689c4f-6b1e-4ae8-b54a-b6157faf3d30</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

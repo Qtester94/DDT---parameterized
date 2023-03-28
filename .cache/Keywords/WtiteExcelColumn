@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "C0D44584B7CEC4EFCD81730DA86DCCEF",
+  "keywordClasses": [
+    {
+      "name": "WriteExcelColumn",
+      "keywordMethods": [
+        {
+          "name": "demoKey",
+          "parameters": [
+            {
+              "name": "result",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

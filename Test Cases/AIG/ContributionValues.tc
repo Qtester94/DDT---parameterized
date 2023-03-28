@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ContributionValues</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6d8298a6-db5e-47ce-9bce-81065c8ece1b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>7580af86-1266-43f8-a087-f57db62e2b85</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/AIG/AIG-ContributionValues</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cda625af-55a0-4e84-863c-e64b05bb8915</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7580af86-1266-43f8-a087-f57db62e2b85</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>value</value>
+      <variableId>008a2a02-d705-4f9d-b071-22b2bc766257</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>7580af86-1266-43f8-a087-f57db62e2b85</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ageCell</value>
+      <variableId>943d07bc-9ac4-4803-afcb-6dedaabcfe38</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cda625af-55a0-4e84-863c-e64b05bb8915</id>
+      <masked>false</masked>
+      <name>actualValue</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>008a2a02-d705-4f9d-b071-22b2bc766257</id>
+      <masked>false</masked>
+      <name>tableValue</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>943d07bc-9ac4-4803-afcb-6dedaabcfe38</id>
+      <masked>false</masked>
+      <name>cell</name>
+   </variable>
+</TestCaseEntity>

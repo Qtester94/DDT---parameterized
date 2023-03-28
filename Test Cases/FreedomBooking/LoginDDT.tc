@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>LoginDDT</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>04fbb5fa-141a-45be-a3e4-46adf52709de</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>0d533782-fa66-4446-8ecc-49e96bf37a70</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Login</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>0d533782-fa66-4446-8ecc-49e96bf37a70</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>c07982ba-994f-40e8-bdbe-250be7cdbebc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0d533782-fa66-4446-8ecc-49e96bf37a70</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>42cb3660-3b22-44aa-8be0-16d978f4ed6c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0d533782-fa66-4446-8ecc-49e96bf37a70</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>result</value>
+      <variableId>3ee0ff1f-79f9-4cad-80a1-4a87d8a64f5f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c07982ba-994f-40e8-bdbe-250be7cdbebc</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>42cb3660-3b22-44aa-8be0-16d978f4ed6c</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3ee0ff1f-79f9-4cad-80a1-4a87d8a64f5f</id>
+      <masked>false</masked>
+      <name>result</name>
+   </variable>
+</TestCaseEntity>

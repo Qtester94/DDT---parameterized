@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Show all clients</name>
+   <tag></tag>
+   <elementGuidId>7fad570f-d62f-41b0-bdb2-f9a7fc8d6fd5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button__DefaultButton-sc-ftu7s5-0.Nbwot.toggle-show-clients.btn.btn-secondary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3c80f17d-ce55-4b7e-856b-de906458418d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Show or hide clients</value>
+      <webElementGuid>ef0b45cf-019c-4850-b90c-8b708550562d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1a58b6bc-2556-49a6-80ac-e4b43f771919</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button__DefaultButton-sc-ftu7s5-0 Nbwot toggle-show-clients btn btn-secondary</value>
+      <webElementGuid>31523f60-18d2-4c79-8bbd-834a6d39523f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Show all clients</value>
+      <webElementGuid>4ba831de-e541-42d3-9b27-8ccec4b67e6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;wrapper&quot;)/div[@class=&quot;Body__Root-sc-pdu5og-0 gNVTUf&quot;]/div[@class=&quot;Body__Container-sc-pdu5og-1 irbQMo&quot;]/div[@class=&quot;Clients__Page-sc-18hpakg-0 eTATCf&quot;]/div[@class=&quot;Clients__ControlRibbon-sc-18hpakg-4 cBpXhW row&quot;]/div[@class=&quot;Clients__ControlGroup-sc-18hpakg-5 bSqPUf col-8&quot;]/button[@class=&quot;Button__DefaultButton-sc-ftu7s5-0 Nbwot toggle-show-clients btn btn-secondary&quot;]</value>
+      <webElementGuid>ab27affa-7a0f-493c-8e84-238413e443ea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>5d1419a5-6d39-4307-886e-d7101f74debb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='wrapper']/div[2]/div/div/div[2]/div[2]/button[2]</value>
+      <webElementGuid>05580260-0946-4cd4-b0f3-ad7f444a70de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New client'])[1]/following::button[1]</value>
+      <webElementGuid>6bc25b45-ea53-480a-ace2-e2e92aba0fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Client Plans'])[2]/following::button[2]</value>
+      <webElementGuid>7927633c-6f4f-4c94-83bf-44224a1001f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Need help?'])[1]/preceding::button[1]</value>
+      <webElementGuid>c53c8e1f-c840-4d77-af01-b2fba04668b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Show']/parent::*</value>
+      <webElementGuid>1584af2c-c8b0-447c-9403-654ebe394f56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>f83dde80-9219-4f33-81a5-a2c6d1d98843</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@title = 'Show or hide clients' and @type = 'button' and (text() = 'Show all clients' or . = 'Show all clients')]</value>
+      <webElementGuid>c538795b-4e74-4bb4-a4af-b69d35e0fcc4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

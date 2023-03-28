@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Cheks</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>1860dced-46b3-4d7d-b41b-412feb9a147f</testSuiteGuid>
+   <testCaseLink>
+      <guid>e0936bb8-2113-4180-aa46-99013a1ffbe6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/FreedomBooking/DDT-fredomGetinput</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Check</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Check1</value>
+         <variableId>ebf55cd6-fd45-4e3e-a0ab-5a8584f20193</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Check2</value>
+         <variableId>b7af0711-21c3-4345-8886-91c28d4e78e4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Check3</value>
+         <variableId>4f41442a-c0d9-44dd-902f-be2d188433b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>AboutUS</value>
+         <variableId>25fa831b-d12a-41a7-bb2d-10da849c791a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Terms</value>
+         <variableId>e1faef1e-215e-4275-bb11-59f07562b5a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e2b15301-78d8-40b3-a6ad-15bf20d79dd7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Privacy</value>
+         <variableId>738f534d-cc67-448c-adca-5b14bcb80342</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

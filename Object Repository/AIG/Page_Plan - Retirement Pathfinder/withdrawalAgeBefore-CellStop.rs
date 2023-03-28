@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>withdrawalAgeBefore-CellStop</name>
+   <tag></tag>
+   <elementGuidId>19fd2704-683a-489c-806b-b346fb00099a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;projection&quot;]/div[2]/div/div/div[1]/div[3]/div[${withdrawalCellBeforeStop}]/div[7]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-9ab9m1-0 jJtgMy&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr odd&quot;]/div[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4edbb44d-563b-4b03-ad01-b58c72d489fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-9ab9m1-0 jJtgMy&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr odd&quot;]/div[7]</value>
+      <webElementGuid>8d2f0525-654a-442a-8ff0-e43e2230d68e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div['${withdrawalCellBeforeStop}']/div[7]</value>
+      <webElementGuid>4ac9d1f0-2d95-4092-a40d-596f3f41fa40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[${withdrawalCellBeforeStop}]/div[7]</value>
+      <webElementGuid>65436a5f-444d-4810-9e1f-b1604f84429b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

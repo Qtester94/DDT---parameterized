@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description></description>
+   <name>DDT-Test</name>
+   <tag></tag>
+   <UUID>2d34ca72-28d3-49e9-86fa-7a358e4a51c4</UUID>
+   <migratedVersion>5.9.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>C:\Users\WeDoQA-ThinkPad-Man7\Katalon Studio\DDT-Test\DDT-Test.prj</projectFileLocation>
+   <sourceContent>
+      <sourceFolderList>
+         <sourceFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </sourceFolderConfiguration>
+      </sourceFolderList>
+      <systemFolderList>
+         <systemFolderConfiguration>
+            <url>Include/scripts/groovy</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
+      </systemFolderList>
+   </sourceContent>
+   <timeStampInProperties>false</timeStampInProperties>
+   <type>WEBUI</type>
+</Project>

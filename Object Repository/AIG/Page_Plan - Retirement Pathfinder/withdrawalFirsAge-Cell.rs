@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>withdrawalFirsAge-Cell</name>
+   <tag></tag>
+   <elementGuidId>fbc7d46a-ea23-491b-8d91-22aeb3ef0a88</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;projection&quot;]/div[2]/div/div/div[1]/div[3]/div[${withdrawalAge}]/div[7]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-9ab9m1-0 jJtgMy&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr odd&quot;]/div[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b53f2863-7020-4a59-b5fd-1d3c8125e377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$83,125</value>
+      <webElementGuid>25326228-c97b-47d5-98f3-f3e62b898e4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-9ab9m1-0 jJtgMy&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr odd&quot;]/div[7]</value>
+      <webElementGuid>9b37984b-dd89-4b3f-a3ce-68efa757feb0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div['${withdrawalAge}']/div[7]</value>
+      <webElementGuid>dff96dd3-2a30-41bd-b9d6-81f3b476c11a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[${withdrawalAge}]/div[7]</value>
+      <webElementGuid>39d607fb-3e40-421e-9a56-9b7ff59394cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
