@@ -32,33 +32,13 @@ WebUI.click(findTestObject('Object Repository/AIG/Page_Login - Retirement Pathfi
 
 WebUI.click(findTestObject('Object Repository/AIG/Page_Client Search - Retirement Pathfinder/button_Show all clients'))
 
-WebUI.click(findTestObject('AIG/Page_Client Search - Retirement Pathfinder/a_Test2'))
-
-WebUI.click(findTestObject('Object Repository/AIG/Page_Plan - Retirement Pathfinder/a_Sources'))
-
-WebUI.click(findTestObject('AIG/Page_Sources - Retirement Pathfinder/button_4,000,000_AssetsList__EditButton-sc-_f3a0af'))
-
-WebUI.setText(findTestObject('AIG/Page_Sources - Retirement Pathfinder/input_Age_widthdrawStopTypeAge'), age)
-
-WebUI.click(findTestObject('AIG/Page_Sources - Retirement Pathfinder/button_SAVE  CONTINUE'))
+WebUI.click(findTestObject('AIG/Page_Client Search - Retirement Pathfinder/a_Test3'))
 
 WebUI.click(findTestObject('AIG/Page_Sources - Retirement Pathfinder/planPage-sideNavigation'))
 
-value1 = WebUI.getText(findTestObject('AIG/Page_Plan - Retirement Pathfinder/withdrawalFirsAge-CellStop', [('withdrawalCellAtEnd') : withdrawalCellAtEnd]))
+value = WebUI.getText(findTestObject('AIG/Page_Plan - Retirement Pathfinder/contributionCell - Copy - Copy', [('test') : test]))
 
-value2 = WebUI.getText(findTestObject('AIG/Page_Plan - Retirement Pathfinder/withdrawalAgeBefore-CellStop', [('withdrawalCellBeforeStop') : withdrawalCellBeforeStop]))
-
-WebUI.verifyMatch(value1, '$0', false)
-
-WebUI.verifyNotMatch(value1, value2, false)
-
-System.out.println('Value1: ' + value1)
-
-System.out.println('Value2: ' + value2)
-
-CustomKeywords.'aig.WriteExcel.withdrawalValue'(value1, sheet)
-
-CustomKeywords.'aig.WriteExcel.BeforewithdrawalValue'(value2, sheet)
+System.out.println(value)
 
 WebUI.closeBrowser()
 

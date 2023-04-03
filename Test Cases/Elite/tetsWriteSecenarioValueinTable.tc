@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tetsWriteSecenarioValueinTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae84cc11-9366-4f26-ac26-c358b921fd4d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1377a351-55fe-48dd-8b5f-4e953c046841</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df2608ca-38c5-4710-9f03-72531acf50c9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ChangeValue'</defaultValue>
+      <description></description>
+      <id>1377a351-55fe-48dd-8b5f-4e953c046841</id>
+      <masked>false</masked>
+      <name>sheet</name>
+   </variable>
+   <variable>
+      <defaultValue>6454</defaultValue>
+      <description></description>
+      <id>df2608ca-38c5-4710-9f03-72531acf50c9</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

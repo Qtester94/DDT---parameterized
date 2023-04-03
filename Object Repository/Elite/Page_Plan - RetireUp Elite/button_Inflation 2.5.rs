@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Inflation 2.5</name>
+   <tag></tag>
+   <elementGuidId>4bfe68f4-a623-4177-832e-a16b0a3fa46c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.PopoverSlider__TriggerButton-sc-1owzcz-1.PfEGV.slider-link.btn.btn-link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>dec2f90b-173f-4378-bb1a-eff2fe6b293d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b67ce5d5-2d3a-4893-9bf3-3279252bed94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PopoverSlider__TriggerButton-sc-1owzcz-1 PfEGV slider-link btn btn-link</value>
+      <webElementGuid>d1d71a17-b84e-48db-a3bf-233369ff87a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Inflation 2.5%</value>
+      <webElementGuid>47b0fb48-68c2-4c6a-be2b-8dcad4f7b989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[2]/div[@class=&quot;Body__Root-sc-jff9vc-0 BegZu&quot;]/div[@class=&quot;Body__Container-sc-jff9vc-1 dVTuVJ&quot;]/div[@class=&quot;PlanContent__Container-sc-cm6oe-1 jBsyyo&quot;]/div[2]/div[@class=&quot;PlanContent__StatsCol-sc-cm6oe-4 gmFQlo&quot;]/div[@class=&quot;Stats__Container-sc-cs0c3e-4 faPrJm&quot;]/div[@class=&quot;details&quot;]/button[@class=&quot;PopoverSlider__TriggerButton-sc-1owzcz-1 PfEGV slider-link btn btn-link&quot;]</value>
+      <webElementGuid>887ffd03-ef30-4e54-bb0e-fc244feed471</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>cf8e3ba4-b318-48a0-804e-7d2bffebae8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[2]/div[3]/div/div/div[2]/div/div/div[4]/button[2]</value>
+      <webElementGuid>1be1663f-08f9-4079-89e7-3bdf1eaa5685</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tax 19%'])[1]/following::button[1]</value>
+      <webElementGuid>8b390de0-8219-4a22-87fd-24b48f1392a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$3,270,714'])[1]/following::button[2]</value>
+      <webElementGuid>e9123b6f-fbc0-45d0-a0a3-c93f7aa29904</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Re-invest Surplus'])[1]/preceding::button[1]</value>
+      <webElementGuid>6aff1fc9-0379-4445-8b2a-ac84fb25a98e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annuities at 0% Return'])[1]/preceding::button[1]</value>
+      <webElementGuid>c419b4ae-fa09-49d8-a591-de6dfbd5f946</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Inflation 2.5%']/parent::*</value>
+      <webElementGuid>a0347deb-a465-4bf4-ab06-f3f9a0d60534</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button[2]</value>
+      <webElementGuid>bdf66519-717f-42b9-883c-f77cd7aff9b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Inflation 2.5%' or . = 'Inflation 2.5%')]</value>
+      <webElementGuid>a4e89511-b9e8-4989-9115-6d1e8bafe62d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

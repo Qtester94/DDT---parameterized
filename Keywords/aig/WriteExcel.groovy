@@ -22,12 +22,13 @@ public class WriteExcel{
 
 		int colNum=row.getLastCellNum()
 
-
+		println(row)
 
 		while (colNum > 4) {
 			row1=row1+1
 			row = sheet.getRow(row1)
 			colNum=row.getLastCellNum()
+
 		}
 
 

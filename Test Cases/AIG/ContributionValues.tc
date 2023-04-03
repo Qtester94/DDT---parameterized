@@ -4,7 +4,7 @@
    <name>ContributionValues</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>6d8298a6-db5e-47ce-9bce-81065c8ece1b</testCaseGuid>
+   <testCaseGuid>1add2c46-7f4d-40ef-8fd8-7cf353f08f22</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>7580af86-1266-43f8-a087-f57db62e2b85</id>
@@ -18,38 +18,38 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>cda625af-55a0-4e84-863c-e64b05bb8915</variableId>
+      <variableId>0ce6e779-cd92-4cbd-9aa9-709f78caef53</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>7580af86-1266-43f8-a087-f57db62e2b85</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>value</value>
-      <variableId>008a2a02-d705-4f9d-b071-22b2bc766257</variableId>
+      <variableId>6b184a65-2fc3-4877-aa2c-bca8db6deee7</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>7580af86-1266-43f8-a087-f57db62e2b85</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>ageCell</value>
-      <variableId>943d07bc-9ac4-4803-afcb-6dedaabcfe38</variableId>
+      <variableId>978ef34e-20de-499e-bf60-e76e93a51740</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>cda625af-55a0-4e84-863c-e64b05bb8915</id>
+      <id>0ce6e779-cd92-4cbd-9aa9-709f78caef53</id>
       <masked>false</masked>
       <name>actualValue</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>008a2a02-d705-4f9d-b071-22b2bc766257</id>
+      <id>6b184a65-2fc3-4877-aa2c-bca8db6deee7</id>
       <masked>false</masked>
       <name>tableValue</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>943d07bc-9ac4-4803-afcb-6dedaabcfe38</id>
+      <id>978ef34e-20de-499e-bf60-e76e93a51740</id>
       <masked>false</masked>
       <name>cell</name>
    </variable>

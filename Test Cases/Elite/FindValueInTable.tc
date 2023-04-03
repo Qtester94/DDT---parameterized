@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>FindValueInTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fca1bbe9-7e2c-4ecc-9ef8-50cdaf6f7f9c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c62302a7-55c6-43d0-b4d1-0c5000feddc5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'0.1459'</defaultValue>
+      <description></description>
+      <id>c62302a7-55c6-43d0-b4d1-0c5000feddc5</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+</TestCaseEntity>

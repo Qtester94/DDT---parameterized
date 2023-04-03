@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_CONTINUE TO ALLOCATIONS</name>
+   <tag></tag>
+   <elementGuidId>838e0a34-0b81-49e0-a243-5c9e3da2446f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.Button__DefaultButton-sc-ftu7s5-0.Nbwot.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>0bf9da75-d9ae-433b-8273-4d88245071b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>39bd7cc2-9158-4876-bdbb-9138d65fe749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Button__DefaultButton-sc-ftu7s5-0 Nbwot btn btn-primary</value>
+      <webElementGuid>770ac0e1-dc5a-46ec-ae84-cdb20966c41c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>CONTINUE TO ALLOCATIONS</value>
+      <webElementGuid>cddb91e2-eeb3-4ee7-98aa-77503dc47152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ru-y-body-scrollbar modal-open&quot;]/div[@class=&quot;fade StyledModal-sc-91ps9d-0 fALiTF modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;Button__DefaultButton-sc-ftu7s5-0 Nbwot btn btn-primary&quot;]</value>
+      <webElementGuid>362d879d-9da9-495c-bb26-ada89796bf3f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>81713538-8a32-48f8-a5b2-6823b13dadc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdrawals are NOT taxed.'])[1]/following::button[1]</value>
+      <webElementGuid>79d95623-6ebc-4635-9810-3a729005a68c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TAX EXEMPT:'])[1]/following::button[1]</value>
+      <webElementGuid>65e07024-aeed-4a24-85c6-5049b80d8838</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CONTINUE TO ALLOCATIONS']/parent::*</value>
+      <webElementGuid>d8ad733d-792b-492c-a993-9b3be6383dbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button</value>
+      <webElementGuid>d18d0337-13d0-49cf-a1f8-9d53bca39574</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'CONTINUE TO ALLOCATIONS' or . = 'CONTINUE TO ALLOCATIONS')]</value>
+      <webElementGuid>baf45f21-6563-4526-ac25-1d9ac028857d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
