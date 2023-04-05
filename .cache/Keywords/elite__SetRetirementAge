@@ -1,0 +1,43 @@
+{
+  "keywordFileContentHash": "1AE43B1776FF81ED466D7F639EABBCE0",
+  "keywordClasses": [
+    {
+      "name": "elite.SetRetirementAge",
+      "keywordMethods": [
+        {
+          "name": "SetRetirement",
+          "parameters": [
+            {
+              "name": "strAge",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "endAge",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

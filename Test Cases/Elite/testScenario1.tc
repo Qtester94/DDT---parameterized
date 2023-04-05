@@ -9,13 +9,65 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>16511521-af86-4a33-9d51-e5ac63ee4c40</variableId>
+      <variableId>4be04a7c-fd22-41bf-96cb-2a8fac620d03</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2b1ad61-25db-4943-9931-59d0d747b890</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0c2d41ed-2553-432f-9f7b-4d724e4cbfcb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe7a2e5e-8a70-41e4-91bd-0a00b5fa0a17</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5352baef-5139-4640-837d-1cfee5a1d773</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'72'</defaultValue>
+      <description></description>
+      <id>4be04a7c-fd22-41bf-96cb-2a8fac620d03</id>
+      <masked>false</masked>
+      <name>strAge</name>
+   </variable>
+   <variable>
+      <defaultValue>'91'</defaultValue>
+      <description></description>
+      <id>b2b1ad61-25db-4943-9931-59d0d747b890</id>
+      <masked>false</masked>
+      <name>endAge</name>
+   </variable>
+   <variable>
+      <defaultValue>'160000'</defaultValue>
+      <description></description>
+      <id>0c2d41ed-2553-432f-9f7b-4d724e4cbfcb</id>
+      <masked>false</masked>
+      <name>salary</name>
+   </variable>
+   <variable>
+      <defaultValue>'2'</defaultValue>
+      <description></description>
+      <id>fe7a2e5e-8a70-41e4-91bd-0a00b5fa0a17</id>
+      <masked>false</masked>
+      <name>increases</name>
+   </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>16511521-af86-4a33-9d51-e5ac63ee4c40</id>
+      <id>5352baef-5139-4640-837d-1cfee5a1d773</id>
       <masked>false</masked>
-      <name>test</name>
+      <name>age</name>
    </variable>
 </TestCaseEntity>

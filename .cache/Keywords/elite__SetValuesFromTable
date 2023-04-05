@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "57EF8B88EFE3A8E8E6918B84E82DFC85",
+  "keywordClasses": [
+    {
+      "name": "elite.SetValuesFromTable",
+      "keywordMethods": [
+        {
+          "name": "setValues",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

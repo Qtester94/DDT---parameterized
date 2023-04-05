@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_E</name>
+   <tag></tag>
+   <elementGuidId>fcc20616-7467-45c3-906d-b471998e91e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div[2]/div[3]/div/div/form/div/div/div/div[2]/div/section[3]/div/div/div/div/div[2]/div[5]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.RetirementRange__StyledHandle-sc-osb66-0.fJEloW.dragging > div > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>14df094f-28b5-4c99-a360-8747d0d48f7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>E</value>
+      <webElementGuid>15c0fdc0-7cdb-4647-8c81-03675cb9527b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[2]/div[@class=&quot;Body__Root-sc-jff9vc-0 BegZu&quot;]/div[@class=&quot;Body__Container-sc-jff9vc-1 dVTuVJ&quot;]/div[@class=&quot;InfoContent__Wrapper-sc-6smxw-0 cpEFfe&quot;]/form[1]/div[@class=&quot;mb-0 form-group row&quot;]/div[@class=&quot;pr-2 col&quot;]/div[@class=&quot;InfoContent__LeftPanel-sc-6smxw-1 hucjNN card&quot;]/div[@class=&quot;card-body&quot;]/div[1]/section[3]/div[@class=&quot;LayoutHelpers__InfoFieldGroup-sc-7ke78-5 bvUyZh&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;px-5 row&quot;]/div[@class=&quot;px-5 col&quot;]/div[@class=&quot;rc-slider rc-slider-with-marks RetirementRange__StyledRange-sc-osb66-1 jMEzFH is-tight&quot;]/div[@class=&quot;rc-slider-handle rc-slider-handle-2 rc-slider-handle-dragging rc-slider-handle-click-focused&quot;]/div[@class=&quot;RetirementRange__StyledHandle-sc-osb66-0 fJEloW dragging&quot;]/div[1]/span[1]</value>
+      <webElementGuid>2950d3c3-b146-4942-b632-63b829102cd0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div[2]/div[3]/div/div/form/div/div/div/div[2]/div/section[3]/div/div/div/div/div[2]/div[5]/div/div/span</value>
+      <webElementGuid>c87a891e-9b98-41ab-8f00-f064a33ee71c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='R'])[1]/following::span[1]</value>
+      <webElementGuid>af96b3b6-ea1f-4e77-901c-54439de0b1b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual'])[1]/preceding::span[4]</value>
+      <webElementGuid>69885237-a490-492a-b562-57112af58d25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='E']/parent::*</value>
+      <webElementGuid>84e447a2-758e-4fac-8aa9-9e8ee274d04b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/span</value>
+      <webElementGuid>150fb616-d371-41a1-989d-b6ff056935a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'E' or . = 'E')]</value>
+      <webElementGuid>cd236558-6234-43d1-9e2c-97e2aca2e472</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

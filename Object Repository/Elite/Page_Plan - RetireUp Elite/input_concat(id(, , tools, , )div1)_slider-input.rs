@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Variable Tax Timeframe_TaxSliderVaria_b7b09c</name>
+   <name>input_concat(id(, , tools, , )div1)_slider-input</name>
    <tag></tag>
-   <elementGuidId>1ea2d3a4-47aa-4efb-a14b-641359961270</elementGuidId>
+   <elementGuidId>4688e94e-7787-4022-8ced-179df2048010</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input.TaxSliderVariable__StyledNumericInput-sc-hizw2i-4.eabSpG</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;tax-popover&quot;]/div[2]/div/div[2]/div[1]/input</value>
+         <value>//input[@value='0%']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;tax-popover&quot;)/div[@class=&quot;popover-body&quot;]/div[1]/div[@class=&quot;TaxSliderVariable__SliderWithTextBoxContainer-sc-hizw2i-2 esDOdV&quot;]/div[@class=&quot;TaxSliderVariable__InputWrapper-sc-hizw2i-3 ijjCrq&quot;]/input[@class=&quot;TaxSliderVariable__StyledNumericInput-sc-hizw2i-4 eabSpG&quot;][count(. | //*[@type = 'text']) = count(//*[@type = 'text'])]</value>
+         <key>CSS</key>
+         <value>input.slider-input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,23 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c71af796-c68e-42ec-a258-b39280c00cbb</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>6</value>
-      <webElementGuid>3a01b484-f75f-47ad-9136-80d9222c348b</webElementGuid>
+      <webElementGuid>2a0d2fc9-d150-4c46-bef6-26b899bddb1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>TaxSliderVariable__StyledNumericInput-sc-hizw2i-4 eabSpG</value>
-      <webElementGuid>8ff9e9ac-54ff-4051-88b6-9274206ad48b</webElementGuid>
+      <value>slider-input</value>
+      <webElementGuid>3a703915-f8bf-4ba8-b2b9-161fffbbd9dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>5</value>
+      <webElementGuid>8fa9813b-9dba-4f63-bffe-ab0930bb60d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>width</name>
+      <type>Main</type>
+      <value>25%</value>
+      <webElementGuid>6677532e-4290-480a-b3d9-0be1094ce87d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +54,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>\$?[0-9]*,?[0-9]*\.?[0-9]*%?</value>
-      <webElementGuid>71decb29-6347-446b-98df-80db5c0ced10</webElementGuid>
+      <webElementGuid>d5536ba2-efbc-47f5-919b-f90799470207</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -58,15 +62,15 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>52d242b6-4bdb-4a85-b999-a9cde7a5218e</webElementGuid>
+      <webElementGuid>fced779e-0202-4c8e-bcaa-2e854043509a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>18%</value>
-      <webElementGuid>cc44ab75-1ed7-4674-b894-c8b6caf366e8</webElementGuid>
+      <value>0%</value>
+      <webElementGuid>6fbcab0b-8d16-4b89-8e3a-8dbf65b7337c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,31 +78,31 @@
       <name>inputmode</name>
       <type>Main</type>
       <value>numeric</value>
-      <webElementGuid>43eb7797-44d4-4ebc-805d-b8505f70fa7e</webElementGuid>
+      <webElementGuid>79282f8e-8eb8-4b1f-b903-d743e042ee25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tax-popover&quot;)/div[@class=&quot;popover-body&quot;]/div[1]/div[@class=&quot;TaxSliderVariable__SliderWithTextBoxContainer-sc-hizw2i-2 esDOdV&quot;]/div[@class=&quot;TaxSliderVariable__InputWrapper-sc-hizw2i-3 ijjCrq&quot;]/input[@class=&quot;TaxSliderVariable__StyledNumericInput-sc-hizw2i-4 eabSpG&quot;]</value>
-      <webElementGuid>0d0439e1-90c9-4cb1-b2f2-5609f9d030ba</webElementGuid>
+      <value>id(&quot;0.01462693207912924&quot;)/div[@class=&quot;popover-body&quot;]/div[@class=&quot;slider-input-container&quot;]/input[@class=&quot;slider-input&quot;]</value>
+      <webElementGuid>96538ba9-eb43-4035-9dbb-b08859762ff1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@value='18%']</value>
-      <webElementGuid>5cffb06f-9cb7-49dd-aa16-0e6e80fcf2ba</webElementGuid>
+      <value>//input[@value='0%']</value>
+      <webElementGuid>4c7e9f15-7082-418d-bb3b-31ec1aff729c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='tax-popover']/div[2]/div/div[2]/div/input</value>
-      <webElementGuid>4759e3a6-1363-4de1-a6ae-620596d59557</webElementGuid>
+      <value>//div[@id='0.01462693207912924']/div[2]/div/input</value>
+      <webElementGuid>152ba58f-30d5-4c31-b465-9d69fe141ffa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +110,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>873912eb-5cf8-4130-81ea-2940546378b0</webElementGuid>
+      <webElementGuid>841c61eb-d170-425b-9eaa-869e37427e18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,6 +118,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text']</value>
-      <webElementGuid>7c83be0c-48ab-41bb-a29a-64241c101243</webElementGuid>
+      <webElementGuid>ab456852-48da-4ae0-8706-c40dcf6b2171</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
