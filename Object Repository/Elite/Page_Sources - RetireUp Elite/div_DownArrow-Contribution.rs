@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_DownArrow-Contribution</name>
+   <tag></tag>
+   <elementGuidId>06f8da61-55ca-4e7a-9192-f6514b820135</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[5]/div/div/div[2]/div/div/div/div[2]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d8997527-6cad-447e-85de-038cbac28eeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>Select__DownArrow-sc-1b9ue4l-0 kKPbWk</value>
+      <webElementGuid>bb176c13-f606-47cb-9c8b-9308334b4687</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ru-y-body-scrollbar modal-open&quot;]/div[@class=&quot;fade StyledModal-sc-91ps9d-0 fALiTF modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/form[1]/div[1]/div[8]/div[5]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;css-1d4ytge-container&quot;]/div[@class=&quot;css-8jadhh-control&quot;]/div[@class=&quot;css-1wy0on6&quot;]/div[@class=&quot;css-bsr4gf-indicatorContainer&quot;]/div[@class=&quot;Select__DownArrow-sc-1b9ue4l-0 kKPbWk&quot;]</value>
+      <webElementGuid>88b7ed70-6e64-40c3-bd63-3b1dffb510cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>0ae03822-0d0e-4607-8b67-9484a5d62bdf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

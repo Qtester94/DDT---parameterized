@@ -17,9 +17,28 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-age = CustomKeywords.'elite.SetValuesFromTable.setValues'()
+infovalues = CustomKeywords.'elite.SetValuesFromTable.setInfoValues'()
 
-System.out.println('age,' + age)
+age = (infovalues[0])
+
+strAge = (infovalues[1])
+
+endAge = (infovalues[2])
+
+salary = (infovalues[3])
+
+increases = (infovalues[4])
+
+System.out.println((((((((('age:' + age) + ' | strAge: ') + strAge) + ' | endAge: ') + endAge) + '| salary: ') + salary) + 
+    '| increases: ') + increases)
+
+assetvalues = CustomKeywords.'elite.SetValuesFromTable.setAsetValues'()
+
+contribution = (assetvalues[0])
+
+contributionType = (assetvalues[1])
+
+System.out.println((contribution + '     ') + contributionType)
 
 WebUI.openBrowser('')
 
@@ -39,7 +58,7 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireU
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/a_Info'))
 
-WebUI.setText(findTestObject('Object Repository/Elite/Page_Information - RetireUp Elite/input_Years_client.age'), '62')
+WebUI.setText(findTestObject('Object Repository/Elite/Page_Information - RetireUp Elite/input_Years_client.age'), age)
 
 CustomKeywords.'elite.SetRetirementAge.SetRetirement'(strAge, endAge)
 
@@ -60,8 +79,22 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Information - RetireUp 
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_Employer_AssetsList__EditButton-sc-n_517339'))
 
+WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
+
+WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Maximum Allowable'))
+
+WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
+
+WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Monthly'))
+
+WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
+
+WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Salary'))
+
+WebUI.delay(5)
+
 WebUI.setText(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/input_Monthly_contributionAmountEmployeeCurrency'), 
-    '$1,800')
+    contribution)
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_CONTINUE TO ALLOCATIONS'))
 

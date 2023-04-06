@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Monthly</name>
+   <tag></tag>
+   <elementGuidId>5303838d-6ac7-4ef3-bc98-90d2b484d79e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select is focused , press Down to open the menu,'])[1]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>2e7c87c8-01db-4b2e-b311-92ce7bf88d96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value> css-107fx3s-singleValue</value>
+      <webElementGuid>4cf8c80d-c3a9-4ebd-ae87-81710898323b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Monthly</value>
+      <webElementGuid>d66862b8-141e-47a4-ab20-ff81bdb5558d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;ru-y-body-scrollbar modal-open&quot;]/div[@class=&quot;fade StyledModal-sc-91ps9d-0 fALiTF modal show&quot;]/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-body&quot;]/form[1]/div[1]/div[8]/div[5]/div[@class=&quot;form-group&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-9&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;css-1d4ytge-container&quot;]/div[@class=&quot;css-8jadhh-control&quot;]/div[@class=&quot;css-hlgwow&quot;]/div[@class=&quot;css-107fx3s-singleValue&quot;]</value>
+      <webElementGuid>6a8da243-0ff4-4e12-b980-3142a5874b63</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select is focused , press Down to open the menu,'])[1]/following::div[3]</value>
+      <webElementGuid>8454a606-0036-42d3-afc6-90556cced9b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='option Monthly, selected.'])[1]/following::div[3]</value>
+      <webElementGuid>7083f003-35d4-43cf-bc79-36f68ef02a4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLOYER MATCH:'])[1]/preceding::div[10]</value>
+      <webElementGuid>eb12731b-bc2f-4091-b401-5a1bf3772cae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cents per dollar up to'])[1]/preceding::div[13]</value>
+      <webElementGuid>6ebd4cd4-ae74-481a-868b-cd2595176215</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Monthly']/parent::*</value>
+      <webElementGuid>2cff0625-717b-4f3a-9ab8-54a017b9c3b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div[2]/div/div/div/div/div</value>
+      <webElementGuid>b36c641a-8315-40b1-a89d-14921af5f882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Monthly' or . = 'Monthly')]</value>
+      <webElementGuid>82ca3e3a-a317-4209-888c-bad95bb0f1ed</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

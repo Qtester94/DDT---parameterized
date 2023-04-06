@@ -46,13 +46,13 @@ class WriteValueInTable {
 	@Keyword
 	public void WriteinCell(int value, String wsheet) throws IOException{
 
-	
+
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\AIG.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		XSSFSheet sheet = workbook.getSheet(wsheet)
 		XSSFRow row = sheet.getRow(2)
 		XSSFCell cell = row.getCell(2)
-		
+
 		println(value)
 
 		cell.setBlank()
