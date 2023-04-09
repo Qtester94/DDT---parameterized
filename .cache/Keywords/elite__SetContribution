@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "A1547C628661BF077D7E9FBEDFE4BFCD",
+  "keywordClasses": [
+    {
+      "name": "elite.SetContribution",
+      "keywordMethods": [
+        {
+          "name": "Set",
+          "parameters": [
+            {
+              "name": "wsheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\n\t * Set contribution dependent on the type\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

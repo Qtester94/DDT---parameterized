@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-infovalues = CustomKeywords.'elite.SetValuesFromTable.setInfoValues'()
+infovalues = CustomKeywords.'elite.SetValuesFromTable.setInfoValues'(wsheet)
 
 age = (infovalues[0])
 
@@ -31,14 +31,6 @@ increases = (infovalues[4])
 
 System.out.println((((((((('age:' + age) + ' | strAge: ') + strAge) + ' | endAge: ') + endAge) + '| salary: ') + salary) + 
     '| increases: ') + increases)
-
-assetvalues = CustomKeywords.'elite.SetValuesFromTable.setAsetValues'()
-
-contribution = (assetvalues[0])
-
-contributionType = (assetvalues[1])
-
-System.out.println((contribution + '     ') + contributionType)
 
 WebUI.openBrowser('')
 
@@ -79,22 +71,7 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Information - RetireUp 
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_Employer_AssetsList__EditButton-sc-n_517339'))
 
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Maximum Allowable'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Monthly'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Salary'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/input_Monthly_contributionAmountEmployeeCurrency'), 
-    contribution)
+CustomKeywords.'elite.SetContribution.Set'(wsheet)
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_CONTINUE TO ALLOCATIONS'))
 

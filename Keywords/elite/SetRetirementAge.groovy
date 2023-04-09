@@ -15,7 +15,10 @@ class SetRetirementAge {
 
 		WebUI.sendKeys(findTestObject('Elite/Page_Information - RetireUp Elite/input_Years_client.age'), Keys.chord(Keys.TAB, Keys.DELETE,
 				Keys.ENTER))
-
+		
+		WebUI.sendKeys(findTestObject('Elite/Page_Information - RetireUp Elite/input_Years_client.age'), Keys.chord(Keys.TAB, Keys.DELETE,
+			Keys.ENTER))
+		
 		WebUI.sendKeys(findTestObject('Elite/Page_Information - RetireUp Elite/input_Years_client.age'), Keys.chord(Keys.TAB, Keys.DELETE,
 				strAge, Keys.TAB))
 

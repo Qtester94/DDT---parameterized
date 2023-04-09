@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Salary</name>
    <tag></tag>
-   <elementGuidId>486c5d22-6c55-48f4-aa87-bbbb22c83d07</elementGuidId>
+   <elementGuidId>64d33562-7139-484c-96ce-dd44c81366c2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4cb149b2-8be3-4aaa-8879-fcc6a4bd8b81</webElementGuid>
+      <webElementGuid>c1f5c40f-6566-4be2-975b-f600f679fe3c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1gxwjea-option</value>
-      <webElementGuid>19ff0bbd-bee7-4521-8778-bf7116dfd2b6</webElementGuid>
+      <webElementGuid>2ebdf3bf-5540-4450-bec5-a0741fcb4ba4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>fcf2f2dd-5196-426d-b830-a6c254465d4d</webElementGuid>
+      <webElementGuid>ce6da908-ce5d-452f-ba19-149158f01a43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-8-option-4</value>
-      <webElementGuid>b2fad424-a46f-4942-a4f7-03d373b8b077</webElementGuid>
+      <webElementGuid>acae2794-22a6-4d4c-97e2-db9b51d4138d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>486c42a4-3a2f-4e67-98ba-82c5ba74c16b</webElementGuid>
+      <webElementGuid>56faa682-0526-4b34-b4e7-d3b61cbc492c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>% Salary</value>
-      <webElementGuid>03d51c33-5263-4056-af01-986d28e24e96</webElementGuid>
+      <webElementGuid>245a87dd-3ba3-4887-8b1b-ce0d09e48f56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-8-option-4&quot;)</value>
-      <webElementGuid>5ca25c09-f947-4415-a3d2-51f916488ae7</webElementGuid>
+      <webElementGuid>c1538d93-c7a2-48e0-98f9-479b7bfd281d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-8-option-4']</value>
-      <webElementGuid>68cf766b-2bbd-4d41-8929-07507233b3ca</webElementGuid>
+      <webElementGuid>e5a0bdf9-fa76-405e-8b55-f806e4cbe4b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='react-select-8-listbox']/div/div[5]</value>
-      <webElementGuid>c38e1b05-7f55-43d8-925c-646216c0d79d</webElementGuid>
+      <webElementGuid>7ea22751-ed9f-43c6-828c-034e2420a213</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual'])[2]/following::div[1]</value>
-      <webElementGuid>b58cf437-0566-4c9c-9543-2658b1d33d49</webElementGuid>
+      <webElementGuid>6c287baf-c30b-4bf3-b8aa-53e842af8c4a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Monthly'])[1]/following::div[2]</value>
-      <webElementGuid>fd614904-a0b8-4c5b-9019-1afecb5c8e14</webElementGuid>
+      <webElementGuid>308687b1-62ae-48a9-9783-0d8071d056f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The value must be greater than zero.'])[1]/preceding::div[2]</value>
+      <webElementGuid>59edcba4-499e-46dd-b563-ae5c61c27cf1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,15 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMPLOYER MATCH:'])[1]/preceding::div[7]</value>
-      <webElementGuid>886fed10-a74f-4e9f-af22-24657319e71d</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='cents per dollar up to'])[1]/preceding::div[10]</value>
-      <webElementGuid>0f8e490b-f56f-4e04-b8c1-f26bb06cc6e7</webElementGuid>
+      <webElementGuid>2c4ab0ad-b86b-4000-8af6-57bf50350f23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='% Salary']/parent::*</value>
-      <webElementGuid>f3b0c584-bf34-446a-84cc-567e37772ef2</webElementGuid>
+      <webElementGuid>fe722e21-95d8-426c-b13b-53f40833923c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[5]</value>
-      <webElementGuid>fe0d52e1-8a1e-4f64-a416-18f80988d353</webElementGuid>
+      <webElementGuid>ad79154f-6547-4ca9-b657-2bb614d2a7c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-8-option-4' and (text() = '% Salary' or . = '% Salary')]</value>
-      <webElementGuid>1c2ad468-c7c8-42c6-ba65-541d74f370cf</webElementGuid>
+      <webElementGuid>b7544d2f-1b6c-4f97-9cad-c34779731c66</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

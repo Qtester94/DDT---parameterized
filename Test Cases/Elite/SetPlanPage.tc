@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>SetPlanPage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4b715892-2e58-481d-adc1-421a9d5e716d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>167d1713-3a5d-4fdd-9fbf-9015a7e4c51b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>167d1713-3a5d-4fdd-9fbf-9015a7e4c51b</id>
+      <masked>false</masked>
+      <name>test</name>
+   </variable>
+</TestCaseEntity>

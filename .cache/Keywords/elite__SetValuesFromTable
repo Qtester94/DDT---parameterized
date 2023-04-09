@@ -1,19 +1,49 @@
 {
-  "keywordFileContentHash": "84139F283576E0C35CD6FFDDD2955885",
+  "keywordFileContentHash": "319E3C58FB59EC625E9C6AC0D39F81B7",
   "keywordClasses": [
     {
       "name": "elite.SetValuesFromTable",
       "keywordMethods": [
         {
           "name": "setInfoValues",
-          "parameters": []
+          "parameters": [
+            {
+              "name": "wsheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         },
         {
           "name": "setAsetValues",
-          "parameters": []
+          "parameters": [
+            {
+              "name": "wsheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

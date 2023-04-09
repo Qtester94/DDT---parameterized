@@ -37,27 +37,7 @@ WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/a_Sources'))
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_Employer_AssetsList__EditButton-sc-n_517339'))
 
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
+CustomKeywords.'elite.SetContribution.Set'(wsheet)
 
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Maximum Allowable'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Monthly'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Salary'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
-
-WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/Page_Sources - RetireUp Elite/div_Annual'))
-
-WebUI.delay(5)
+WebUI.delay(2)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>testScenario1</name>
+   <name>testScenario</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>79e5117a-4346-47f6-bca5-18b70e942763</testCaseGuid>
@@ -39,13 +39,7 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>02debdd6-8c21-4ca4-8bb5-11e81906e633</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>c99da0bb-24b3-48c2-add0-c74b350a6211</variableId>
+      <variableId>3ad3491b-0e94-4978-b5af-b1f300cb8461</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -83,17 +77,10 @@
       <name>age</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Scenario2'</defaultValue>
       <description></description>
-      <id>02debdd6-8c21-4ca4-8bb5-11e81906e633</id>
+      <id>3ad3491b-0e94-4978-b5af-b1f300cb8461</id>
       <masked>false</masked>
-      <name>contribution</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>c99da0bb-24b3-48c2-add0-c74b350a6211</id>
-      <masked>false</masked>
-      <name>contributionType</name>
+      <name>wsheet</name>
    </variable>
 </TestCaseEntity>
