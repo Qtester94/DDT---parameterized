@@ -77,7 +77,7 @@
       <name>age</name>
    </variable>
    <variable>
-      <defaultValue>'Scenario2'</defaultValue>
+      <defaultValue>'Scenario3'</defaultValue>
       <description></description>
       <id>3ad3491b-0e94-4978-b5af-b1f300cb8461</id>
       <masked>false</masked>

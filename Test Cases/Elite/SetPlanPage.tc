@@ -9,13 +9,13 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>167d1713-3a5d-4fdd-9fbf-9015a7e4c51b</variableId>
+      <variableId>8aeffdb8-6738-4b89-b183-95b3ca02b149</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Scenario5'</defaultValue>
       <description></description>
-      <id>167d1713-3a5d-4fdd-9fbf-9015a7e4c51b</id>
+      <id>8aeffdb8-6738-4b89-b183-95b3ca02b149</id>
       <masked>false</masked>
-      <name>test</name>
+      <name>wsheet</name>
    </variable>
 </TestCaseEntity>

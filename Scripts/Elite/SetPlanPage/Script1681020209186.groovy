@@ -33,31 +33,18 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireU
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireUp Elite/a_Current Plan'))
 
-WebUI.click(findTestObject('Elite/New Folder/test'))
+WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/button_Tax 18'))
 
-WebUI.click(findTestObject('Elite/New Folder/test'))
+WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/input_Variable Tax Timeframe_TaxSliderVaria_b7b09c'))
 
-//WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/button_Tax 18'))
-//
-//WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/input_Variable Tax Timeframe_TaxSliderVaria_b7b09c'))
-//
-//WebUI.sendKeys(findTestObject('Elite/Page_Plan - RetireUp Elite/input_Variable Tax Timeframe_TaxSliderVaria_b7b09c'), Keys.chord(
-//        Keys.BACK_SPACE, Keys.BACK_SPACE, '18', Keys.ENTER))
-//
-//WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/button_Inflation 2.5'))
-//
-//WebUI.click(findTestObject('Elite/New Folder/input__slider-input'))
-//
-//WebUI.sendKeys(findTestObject('Elite/New Folder/input__slider-input'), Keys.chord(Keys.DELETE, Keys.DELETE, Keys.BACK_SPACE, 
-//        Keys.BACK_SPACE, '2.2', Keys.ENTER))
-//WebUI.dragAndDropByOffset(findTestObject('Elite/New Folder/div_Before Retirement_rc-slider-handle'), -250, 0)
-//
-//WebUI.dragAndDropByOffset(findTestObject('Elite/New Folder/div_Before Retirement_rc-slider-handle'), 110, 0)
-//
-//WebUI.dragAndDropByOffset(findTestObject('Elite/New Folder/div_Before Retirement_rc-slider-handle'), -250, 0)
-//
-//WebUI.dragAndDropByOffset(findTestObject('Elite/New Folder/div_Before Retirement_rc-slider-handle'), 150, 0)
-test = WebUI.getText(findTestObject('Elite/New Folder/Tooltip'))
+WebUI.sendKeys(findTestObject('Elite/Page_Plan - RetireUp Elite/input_Variable Tax Timeframe_TaxSliderVaria_b7b09c'), Keys.chord(
+        Keys.DELETE, Keys.DELETE, '0'))
 
-System.out.println(test)
+WebUI.setText(findTestObject('Elite/Page_Plan - RetireUp Elite/input_Variable Tax Timeframe_TaxSliderVaria_b7b09c'), '18')
+
+WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/button_Inflation 2.5'))
+
+WebUI.setText(findTestObject('Elite/Page_Plan - RetireUp Elite/input__Inflation'), '2.5', FailureHandling.STOP_ON_FAILURE)
+
+CustomKeywords.'elite.SetReturns.Set'(wsheet)
 

@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "2A5B37BB585B44530E53AC654B0F8B23",
+  "keywordClasses": [
+    {
+      "name": "elite.SetReturns",
+      "keywordMethods": [
+        {
+          "name": "Set",
+          "parameters": [
+            {
+              "name": "wsheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

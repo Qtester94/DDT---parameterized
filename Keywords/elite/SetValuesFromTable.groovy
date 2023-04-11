@@ -13,11 +13,13 @@ import com.kms.katalon.core.annotation.Keyword
 
 class SetValuesFromTable {
 
+	
+	//Get info values 
 	@Keyword
 	public static setInfoValues(String wsheet) throws IOException{
 
 		String[] infovalues
-	
+
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		XSSFSheet sheet = workbook.getSheet(wsheet)
@@ -69,11 +71,13 @@ class SetValuesFromTable {
 	}
 
 
+	
+	// Get asset contributions values and contribution types
 	@Keyword
 	public static setAsetValues(String wsheet) throws IOException{
 
 		String[] assetvalues
-	
+
 
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
@@ -86,7 +90,7 @@ class SetValuesFromTable {
 		contribution = contribution / 10
 		int contribution1 = contribution
 
-		
+
 		row = sheet.getRow(6)
 		cell = row.getCell(4)
 		double contribution2 = cell.getNumericCellValue()
@@ -105,4 +109,27 @@ class SetValuesFromTable {
 
 		return assetvalues
 	}
+	
+	
+	@Keyword
+	public static setReturnsValue(String wsheet) throws IOException{
+
+		String reurnsvalue = ''
+
+				FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet(wsheet)
+		XSSFRow row = sheet.getRow(5)
+		XSSFCell cell = row.getCell(1)
+	
+		double returns = cell.getNumericCellValue()
+		returns = returns * 1000
+		
+		int returns1 = returns /10
+		
+		reurnsvalue = returns1
+		
+		return reurnsvalue
+	
+}
 }

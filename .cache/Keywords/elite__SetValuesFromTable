@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "319E3C58FB59EC625E9C6AC0D39F81B7",
+  "keywordFileContentHash": "603A1CBB64E8E17876673B57515164DA",
   "keywordClasses": [
     {
       "name": "elite.SetValuesFromTable",
@@ -25,6 +25,25 @@
         },
         {
           "name": "setAsetValues",
+          "parameters": [
+            {
+              "name": "wsheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setReturnsValue",
           "parameters": [
             {
               "name": "wsheet",
