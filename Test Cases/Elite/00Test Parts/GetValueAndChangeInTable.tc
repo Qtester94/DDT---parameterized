@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GetValueAndChangeInTable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e778ef45-6b7e-4c70-8695-184f79e728f4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98ccb349-829b-4d9b-b9c9-a5e6cf21d19b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>98ccb349-829b-4d9b-b9c9-a5e6cf21d19b</id>
+      <masked>false</masked>
+      <name>returnCell</name>
+   </variable>
+</TestCaseEntity>

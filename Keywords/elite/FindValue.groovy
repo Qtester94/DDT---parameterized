@@ -125,7 +125,7 @@ class FindValue {
 
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\AIG.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
-		XSSFSheet sheet = workbook.getSheet('Returns')
+		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
 		XSSFRow row = sheet.getRow(3)
 		XSSFRow row0 = sheet.getRow(0)
 		XSSFCell cell = row.getCell(1)
@@ -137,6 +137,69 @@ class FindValue {
 
 		}
 
+	}
+	
+	// Find Value from from row, and return Column value and Index value from row
+	@Keyword
+	public void findValueinRowSC(String value, int rowNum) throws IOException{
+
+
+		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
+		XSSFRow row = sheet.getRow(rowNum)
+		XSSFRow row0 = sheet.getRow(0)
+		XSSFCell cell = row.getCell(1)
+
+		String index = ''
+		String colName= ''
+
+		for (int i = 1; i<21; i++) {
+
+			cell = row.getCell(i)
+
+			String cell1 = cell.getRawValue()
+
+			if (cell1 == value) {
+				println("This is a searched value: " + cell1)
+				colName = row0.getCell(i)
+				double test = Double.valueOf(colName)
+				double test1 = test * 100
+				//				test1 = test1 * 100
+				//				test1 = Math.round(test1);
+				//				test1 = test1 /100;
+				cell = row.getCell(0)
+				index = cell.getRawValue()
+				println('Row value: '+ test1)
+				println ('Index value' + index)
+			}
+
+		}
+	}
+	
+	
+	
+	
+	// Method to find value in the table (need input value)
+	@Keyword
+	public void findValueinTableSC(String value) throws IOException{
+
+		String index = ''
+		String colName= ''
+	
+		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
+		XSSFRow row = sheet.getRow(2)
+		XSSFRow row0 = sheet.getRow(0)
+		XSSFCell cell = row.getCell(1)
+
+		for (int j=2; j<200; j++ ) {
+			row = sheet.getRow(j)
+
+			findValueinRowSC(value, j)
+
+		}
 	}
 
 }
