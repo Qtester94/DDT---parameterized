@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Growth - Copy</name>
+   <tag></tag>
+   <elementGuidId>5eb9ce2a-9ec1-4269-9feb-baac1079239b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div/div[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6437b361-ad26-4a3e-a93b-d058dee5f48b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$74,400 (3.7%)</value>
+      <webElementGuid>2ebe0af1-7e3a-4a09-a76f-ca6aca254dec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-1nr4tfk-0 eOUihd&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr even&quot;]/div[4]</value>
+      <webElementGuid>c73a4aeb-a3d7-4910-b6ad-38411b7623d1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div/div[4]</value>
+      <webElementGuid>ad6b8e9e-2b6f-4e23-98c4-83640d0ff759</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2,000,000'])[2]/following::div[1]</value>
+      <webElementGuid>4da16476-c04d-400f-93cc-e23fefcc9fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EndingBalance'])[1]/following::div[6]</value>
+      <webElementGuid>eae14fca-f9d0-4926-8a55-cc51359f14d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$18,000'])[1]/preceding::div[1]</value>
+      <webElementGuid>80c24fb4-165c-4f67-a5b7-186226f33c09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$74,400']/parent::*</value>
+      <webElementGuid>e5aa1794-01d6-48dd-bf3c-974787f06db5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[4]</value>
+      <webElementGuid>1a3a8a23-d2b7-4c4f-ab08-89ecdcd28daf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '$74,400 (3.7%)' or . = '$74,400 (3.7%)')]</value>
+      <webElementGuid>aa8a520a-3c02-48d5-8d1d-f7993899ee7b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

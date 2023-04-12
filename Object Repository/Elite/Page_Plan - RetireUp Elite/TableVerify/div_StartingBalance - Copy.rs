@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_StartingBalance - Copy</name>
+   <tag></tag>
+   <elementGuidId>cff7e528-0d59-47e2-b8c5-df35915cc51a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a9c3d439-2439-4458-a695-40f13914d17d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$2,000,000</value>
+      <webElementGuid>834f4d88-8d2f-4022-8f89-b51b605131f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-1nr4tfk-0 eOUihd&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr even&quot;]/div[3]</value>
+      <webElementGuid>ff845b8f-02f4-4404-9cdd-bf9210573db2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div/div[3]</value>
+      <webElementGuid>8291d0e7-d1d6-4f72-955e-494ffd558528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EndingBalance'])[1]/following::div[5]</value>
+      <webElementGuid>de75082b-ccdf-4f5e-af44-516093341e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdrawals'])[1]/following::div[6]</value>
+      <webElementGuid>7b3dd6fb-317c-4e7b-8c6d-3456ffd5f6fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(3.7%)'])[1]/preceding::div[1]</value>
+      <webElementGuid>0e83ab3d-d737-464b-8c7b-65fba94c943b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[3]</value>
+      <webElementGuid>afe1011c-315c-4a75-88fe-594e5254f69d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '$2,000,000' or . = '$2,000,000')]</value>
+      <webElementGuid>04cb26b0-36ef-4661-a463-609e10063316</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

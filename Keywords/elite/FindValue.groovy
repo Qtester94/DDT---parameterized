@@ -143,9 +143,9 @@ class FindValue {
 	@Keyword
 	public static findValueinRowSC(String value, String value2, int rowNum) throws IOException{
 
-	
+
 		String realindex = 'Test'
-			
+
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
@@ -156,7 +156,7 @@ class FindValue {
 		XSSFRow row1 = sheet.getRow(rowNum+1)
 		String index = 'Test'
 		String colName= ''
-				
+
 		for (int i = 1; i<21; i++) {
 
 			cell = row.getCell(i)
@@ -170,21 +170,21 @@ class FindValue {
 				colName = row0.getCell(i)
 				double test = Double.valueOf(colName)
 				double test1 = test * 100
-								cell = row.getCell(0)
+				cell = row.getCell(0)
 				index = cell.getRawValue()
-				
+
 				println('Row value: '+ test1)
 				println ('Index value: ' + index)
 				println ('Colnum: ' + i)
-				
+
 				realindex = index
 				return realindex
 			}
-			
+
 		}
-	
+
 		return realindex
-		
+
 	}
 
 
@@ -198,7 +198,7 @@ class FindValue {
 		String colName= ''
 		String relindex = 'No result'
 		String  findedValue = ''
-		
+
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
@@ -207,19 +207,19 @@ class FindValue {
 		XSSFCell cell = row.getCell(1)
 
 		for (int j=2; j<200; j++ ) {
-			
+
 			row = sheet.getRow(j)
 
-		 index = findValueinRowSC(value, value2, j)
-		
-	
-	if (index != 'Test') break
-	
-		
-		
+			index = findValueinRowSC(value, value2, j)
+
+
+			if (index != 'Test') break
+
+
+
+		}
+		return index
 	}
-	return index
-}
 }
 
 

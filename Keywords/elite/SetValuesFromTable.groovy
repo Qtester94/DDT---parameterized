@@ -132,4 +132,62 @@ class SetValuesFromTable {
 		return reurnsvalue
 
 	}
+
+	//Get Starting Balance Value from the input sheet
+	@Keyword
+	public static startingBalanceValue(String wsheet, int i) throws IOException{
+
+		int rowNum = 15+i
+		String startingBalance = ''
+
+		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet(wsheet)
+		XSSFRow row = sheet.getRow(rowNum)
+		XSSFCell cell = row.getCell(9)
+
+
+		double value = cell.getNumericCellValue()
+		
+		
+		//value = value * 1000
+
+		int value1 = value
+
+		startingBalance = value1
+
+		return startingBalance
+	}
+
+	//Get Growth Value from the input sheet
+	@Keyword
+	public static growthValue(String wsheet, int i) throws IOException{
+		int rowNum = 15+i
+		String growth = ''
+
+		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet(wsheet)
+		XSSFRow row = sheet.getRow(rowNum)
+		XSSFCell cell = row.getCell(10)
+
+		double value = cell.getNumericCellValue()
+		//value = value * 1000
+
+		int value1 = value
+
+		growth = value1
+
+		return growth
+
+	}
+
+
+
+
+
+
+
+
+
 }

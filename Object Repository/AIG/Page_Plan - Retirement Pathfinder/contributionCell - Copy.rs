@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>8ad7690b-7ce2-4910-aed7-02f176f9e51e</webElementGuid>
+      <webElementGuid>5d2d783f-d298-4807-a104-66a4c1e2a1b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +33,7 @@
       <name>text</name>
       <type>Main</type>
       <value>$100</value>
-      <webElementGuid>c7a6ab93-197f-42bb-abe3-88fe7a83f97c</webElementGuid>
+      <webElementGuid>5c403a62-0b55-4617-a8af-272c1950f6fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;projection&quot;)/div[2]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;fade allyears assets tab-pane active show&quot;]/div[@class=&quot;AllYears__Styled-sc-9ab9m1-0 jJtgMy&quot;]/div[@class=&quot;tbody ru-y-scrollbar&quot;]/div[@class=&quot;tr even&quot;]/div[6]</value>
-      <webElementGuid>547ce882-b713-43b3-a9ed-853ab2de596f</webElementGuid>
+      <webElementGuid>6da683f2-4b60-405a-b1a9-79d6779ea396</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -50,7 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='projection']/div[2]/div/div/div/div[3]/div['${cell}']/div[6]</value>
-      <webElementGuid>3e5ec906-fc34-4aa3-b9a1-aaea8312a5f1</webElementGuid>
+      <webElementGuid>4bcbe173-fe26-4ff3-88c9-82f07a85ae1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -58,6 +57,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div['${cell}']/div[6]</value>
-      <webElementGuid>fe026df5-ffca-48c9-b07e-244357ca1125</webElementGuid>
+      <webElementGuid>8acb1713-71b9-4a3b-9dd4-5984943399ca</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

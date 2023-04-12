@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Get the market return value from the application, get the index from the table, and write it back to the table</description>
    <name>GetValueAndChangeInTable</name>
    <tag></tag>
    <comment></comment>
@@ -38,7 +38,7 @@
       <name>marketReturn2</name>
    </variable>
    <variable>
-      <defaultValue>'Scenario1'</defaultValue>
+      <defaultValue>'Scenario4'</defaultValue>
       <description></description>
       <id>5c5c2992-2555-4197-bdff-d898b03f0ac2</id>
       <masked>false</masked>

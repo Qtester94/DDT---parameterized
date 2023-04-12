@@ -33,42 +33,33 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireU
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireUp Elite/a_Current Plan'))
 
-WebUI.mouseOver(findTestObject('Elite/Page_Plan - RetireUp Elite/pathMarketReturn1'))
+while (cell < 10) {
+	System.out.println('Cell: '+cell)
+	 startingBalanceA = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/TableVerify/div_StartingBalance', 
+            [('cell') : cell]))
 
-marketReturn1 = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/marketReturn1'))
+    growthA = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/TableVerify/div_Growth', [('cell') : cell]))
 
-marketReturn1 = marketReturn1.substring(0, marketReturn1.length() - 1)
+    startingBalanceA = startingBalanceA.replaceAll(',', '').replace('$', '')
 
-double ret = Double.valueOf(marketReturn1)
+    growthA = growthA.replace('$', '').replace(',', '')
 
-ret = (ret / 100)
+    growthA = (growthA.split(' ')[0])
 
+    System.out.println((('Application values: Starting Balance: ' + startingBalanceA) + ' | Growth: ') + growthA)
 
-marketReturn1 = ret.toString()
+    startingBalanceT = CustomKeywords.'elite.SetValuesFromTable.startingBalanceValue'(wsheet, cell)
 
-marketReturn1 = marketReturn1.substring(0, 6)
+    growthT = CustomKeywords.'elite.SetValuesFromTable.growthValue'(wsheet, cell)
 
-WebUI.mouseOver(findTestObject('Elite/Page_Plan - RetireUp Elite/New/pathMarkerReturn2'))
+    System.out.println((('Table values: Starting Balance: ' + startingBalanceT) + ' | Growth: ') + growthT)
 
-marketReturn2 = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/New/marketReturn2'))
+    WebUI.verifyMatch(startingBalanceA, startingBalanceT, false)
 
-marketReturn2 = marketReturn2.substring(0, marketReturn2.length() - 1)
+    WebUI.verifyMatch(growthA, growthT, false)
 
-double ret2 = Double.valueOf(marketReturn2)
-
-ret2 = (ret2 / 100)
-
-marketReturn2 = ret2.toString()
-
-marketReturn2 = marketReturn2.substring(0, 6)
-
-System.out.println(marketReturn1+ " | "+  marketReturn2)
-
-String realindex = CustomKeywords.'elite.FindValue.findValueinTableSC'(marketReturn1, marketReturn2)
-
-double writeToTable = Double.valueOf(realindex)
-
-CustomKeywords.'elite.WriteValueInTable.WriteinCellCS'(writeToTable, wsheet)
+    cell = (cell + 1)
+}
 
 WebUI.closeBrowser()
 

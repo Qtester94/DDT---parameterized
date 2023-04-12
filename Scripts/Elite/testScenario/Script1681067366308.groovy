@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
+////Get values for Info page
 infovalues = CustomKeywords.'elite.SetValuesFromTable.setInfoValues'(wsheet)
 
 age = (infovalues[0])
@@ -50,6 +52,8 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireU
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/a_Info'))
 
+
+//Set info page
 WebUI.setText(findTestObject('Object Repository/Elite/Page_Information - RetireUp Elite/input_Years_client.age'), age)
 
 CustomKeywords.'elite.SetRetirementAge.SetRetirement'(strAge, endAge)
@@ -71,6 +75,9 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Information - RetireUp 
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_Employer_AssetsList__EditButton-sc-n_517339'))
 
+
+
+// Set Contrabition for asset
 CustomKeywords.'elite.SetContribution.Set'(wsheet)
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_CONTINUE TO ALLOCATIONS'))
@@ -79,6 +86,8 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elit
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_DONE'))
 
+
+//Set Plan page
 WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/a_Plan'))
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/button_Tax 18'))
