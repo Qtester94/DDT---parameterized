@@ -11,11 +11,37 @@
       <value></value>
       <variableId>98ccb349-829b-4d9b-b9c9-a5e6cf21d19b</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2ada1f4f-1c48-4365-b115-2ff3c875f711</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5c5c2992-2555-4197-bdff-d898b03f0ac2</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
       <id>98ccb349-829b-4d9b-b9c9-a5e6cf21d19b</id>
       <masked>false</masked>
-      <name>returnCell</name>
+      <name>marketReturn1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2ada1f4f-1c48-4365-b115-2ff3c875f711</id>
+      <masked>false</masked>
+      <name>marketReturn2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Scenario1'</defaultValue>
+      <description></description>
+      <id>5c5c2992-2555-4197-bdff-d898b03f0ac2</id>
+      <masked>false</masked>
+      <name>wsheet</name>
    </variable>
 </TestCaseEntity>

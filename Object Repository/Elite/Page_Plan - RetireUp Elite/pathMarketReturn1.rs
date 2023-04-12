@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>path</name>
+   <name>pathMarketReturn1</name>
    <tag></tag>
    <elementGuidId>7165ff5a-b201-43bf-b4df-13cfae1d8d8d</elementGuidId>
    <selectorCollection>
@@ -10,12 +10,12 @@
          <value>//*[@id=&quot;hypoReturns&quot;]/div[2]/div/div[2]/svg/g[2]/path[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//*[name()='path'])[31]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>g.return-bars > path</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[name()='path'])[31]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>path</value>
-      <webElementGuid>026270f8-830f-43af-aeef-89e95130d83a</webElementGuid>
+      <webElementGuid>69fd98e4-467d-4fb2-901e-3ecd67550c04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
                         L92.48275862068965,107.55
                         A2,2 1 0 1 94.48275862068965,109.55
                         L94.48275862068965,112.5Z</value>
-      <webElementGuid>07b06eff-be4c-428b-9a7c-08a76c70db60</webElementGuid>
+      <webElementGuid>341afe6d-03bb-4014-8fec-f489f31d9fbf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>returns-tooltip</value>
-      <webElementGuid>876b4744-21fc-4352-ac90-72e301f6f0aa</webElementGuid>
+      <webElementGuid>5faa2d2a-8a20-4605-8f52-57dd0206db79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;hypoReturns&quot;]/div[2]/div/div[2]/svg/g[2]/path[1]</value>
-      <webElementGuid>7ad40ab3-69a5-48b5-af41-db9c465e1ccd</webElementGuid>
+      <webElementGuid>9ad25d6e-de16-4564-9e87-255808da6c17</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

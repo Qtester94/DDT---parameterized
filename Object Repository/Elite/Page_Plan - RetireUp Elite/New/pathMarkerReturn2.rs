@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>pathMarkerReturn2</name>
+   <tag></tag>
+   <elementGuidId>511b6818-9b5a-4376-86fb-71c69a49e093</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//*[name()='path'])[32]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>path</value>
+      <webElementGuid>2ffd8626-1c57-4897-bb1d-e91f3ebeb4bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>d</name>
+      <type>Main</type>
+      <value>M96.64285714285714,112.5
+                        L96.64285714285714,93.75125
+                        A2,2 1 0 1 98.64285714285714, 91.75125
+                        L119.28571428571428,91.75125
+                        A2,2 1 0 1 121.28571428571428,93.75125
+                        L121.28571428571428,112.5Z</value>
+      <webElementGuid>39df1caf-9152-4ee3-a0b3-1a22e8228bae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>returns-tooltip</value>
+      <webElementGuid>edb31545-d234-489c-97ae-8e6b1b7daffc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hypoReturns&quot;)/div[@class=&quot;HypoReturns__Bottom-sc-1ue7709-2 jqUAZZ&quot;]/div[@class=&quot;Chart__Container-sc-hj1xii-1 gasDhT&quot;]/div[@class=&quot;chart&quot;]/svg[@class=&quot;Chart__Styledsvg-sc-hj1xii-0 dJhaml&quot;]/g[@class=&quot;return-bars&quot;]/path[2]</value>
+      <webElementGuid>c573b9c9-f24f-4389-892b-262d90ed60f9</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

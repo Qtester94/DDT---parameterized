@@ -1,12 +1,13 @@
 {
-  "keywordFileContentHash": "8D831177BDCD023FE31DAEA28239D247",
+  "keywordFileContentHash": "F9493E5256A199FA02FD1398D12773A9",
   "keywordClasses": [
     {
       "name": "elite.FindValue",
       "keywordMethods": [
         {
           "name": "cellread",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "findValueinRow",
@@ -37,7 +38,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "findValueinTable",
@@ -55,13 +57,27 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "findValueinRowSC",
           "parameters": [
             {
               "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value2",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",
@@ -86,7 +102,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "findValueinTableSC",
@@ -103,11 +120,25 @@
                 "genericsTypes": [],
                 "errorOnParsing": false
               }
+            },
+            {
+              "name": "value2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

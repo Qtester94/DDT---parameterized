@@ -97,7 +97,7 @@ WebUI.sendKeys(findTestObject('Elite/Page_Plan - RetireUp Elite/input__Inflation
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/a_Returns'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/path'), '')
+WebUI.verifyElementText(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/pathMarketReturn1'), '')
 
 WebUI.acceptAlert()
 

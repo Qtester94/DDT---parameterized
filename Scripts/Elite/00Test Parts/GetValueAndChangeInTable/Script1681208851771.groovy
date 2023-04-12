@@ -33,20 +33,39 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireU
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireUp Elite/a_Current Plan'))
 
-WebUI.mouseOver(findTestObject('Elite/Page_Plan - RetireUp Elite/path'))
+WebUI.mouseOver(findTestObject('Elite/Page_Plan - RetireUp Elite/pathMarketReturn1'))
 
-returnCell = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/New/ReturnsValue'))
+marketReturn1 = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/marketReturn1'))
 
-returnCell = returnCell.substring(0, returnCell.length() - 1)
+marketReturn1 = marketReturn1.substring(0, marketReturn1.length() - 1)
 
-double ret =  Double.valueOf(returnCell)
+double ret = Double.valueOf(marketReturn1)
 
-ret = ret / 10
-ret = ret / 10
+ret = (ret / 10)
 
-returnCell = ret.toString()
+ret = (ret / 10)
 
-System.out.println(returnCell)
+marketReturn1 = ret.toString()
 
-CustomKeywords.'elite.FindValue.findValueinTableSC'(returnCell)
+WebUI.mouseOver(findTestObject('Elite/Page_Plan - RetireUp Elite/New/pathMarkerReturn2'))
+
+marketReturn2 = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/New/marketReturn2'))
+
+marketReturn2 = marketReturn2.substring(0, marketReturn2.length() - 1)
+
+double ret2 = Double.valueOf(marketReturn2)
+
+ret2 = (ret2 / 10)
+
+ret2 = (ret2 / 10)
+
+marketReturn2 = ret2.toString()
+
+String realindex = CustomKeywords.'elite.FindValue.findValueinTableSC'(marketReturn1, marketReturn2)
+
+double writeToTable = Double.valueOf(realindex)
+
+CustomKeywords.'elite.WriteValueInTable.WriteinCellCS'(writeToTable, wsheet)
+
+WebUI.closeBrowser()
 

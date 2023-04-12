@@ -61,4 +61,25 @@ class WriteValueInTable {
 		workbook.write(fos)
 		fos.close()
 	}
+	
+	
+	@Keyword
+	public void WriteinCellCS(double value, String wsheet) throws IOException{
+
+
+		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		XSSFWorkbook workbook = new XSSFWorkbook(fis)
+		XSSFSheet sheet = workbook.getSheet(wsheet)
+		XSSFRow row = sheet.getRow(6)
+		XSSFCell cell = row.getCell(1)
+
+		println(value)
+
+		cell.setBlank()
+		cell.setCellValue(value)
+		FileOutputStream fos = new FileOutputStream('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
+		workbook.write(fos)
+		fos.close()
+	}
+	
 }

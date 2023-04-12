@@ -138,55 +138,67 @@ class FindValue {
 		}
 
 	}
-	
+
 	// Find Value from from row, and return Column value and Index value from row
 	@Keyword
-	public void findValueinRowSC(String value, int rowNum) throws IOException{
+	public static findValueinRowSC(String value, String value2, int rowNum) throws IOException{
 
-
+	
+		String realindex = 'Test'
+			
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
 		XSSFRow row = sheet.getRow(rowNum)
 		XSSFRow row0 = sheet.getRow(0)
 		XSSFCell cell = row.getCell(1)
-
-		String index = ''
+		XSSFCell cell2 = row.getCell(1)
+		XSSFRow row1 = sheet.getRow(rowNum+1)
+		String index = 'Test'
 		String colName= ''
-
+				
 		for (int i = 1; i<21; i++) {
 
 			cell = row.getCell(i)
+			cell2= row1.getCell(i)
 
 			String cell1 = cell.getRawValue()
+			String cell3 = cell2.getRawValue()
 
-			if (cell1 == value) {
+			if (cell1 == value && cell3 == value2 ) {
 				println("This is a searched value: " + cell1)
 				colName = row0.getCell(i)
 				double test = Double.valueOf(colName)
 				double test1 = test * 100
-				//				test1 = test1 * 100
-				//				test1 = Math.round(test1);
-				//				test1 = test1 /100;
-				cell = row.getCell(0)
+								cell = row.getCell(0)
 				index = cell.getRawValue()
+				
 				println('Row value: '+ test1)
-				println ('Index value' + index)
+				println ('Index value: ' + index)
+				println ('Colnum: ' + i)
+				
+				realindex = index
+				return realindex
 			}
-
+			
 		}
+	
+		return realindex
+		
 	}
-	
-	
-	
-	
+
+
+
+
 	// Method to find value in the table (need input value)
 	@Keyword
-	public void findValueinTableSC(String value) throws IOException{
+	public static findValueinTableSC(String value, String value2) throws IOException{
 
 		String index = ''
 		String colName= ''
-	
+		String relindex = 'No result'
+		String  findedValue = ''
+		
 		FileInputStream fis = new FileInputStream ('C:\\Users\\WeDoQA-ThinkPad-Man7\\Downloads\\EliteScenarios.xlsx')
 		XSSFWorkbook workbook = new XSSFWorkbook(fis)
 		XSSFSheet sheet = workbook.getSheet('RetireUp Market Returns')
@@ -195,15 +207,20 @@ class FindValue {
 		XSSFCell cell = row.getCell(1)
 
 		for (int j=2; j<200; j++ ) {
+			
 			row = sheet.getRow(j)
 
-			findValueinRowSC(value, j)
-
-		}
+		 index = findValueinRowSC(value, value2, j)
+		
+	
+	if (index != 'Test') break
+	
+		
+		
 	}
-
+	return index
 }
-
+}
 
 
 
