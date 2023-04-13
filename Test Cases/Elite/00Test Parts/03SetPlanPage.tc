@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>SetPlanPage</name>
+   <description>Set plan page values (Tax, inflation, Market return)</description>
+   <name>03SetPlanPage</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4b715892-2e58-481d-adc1-421a9d5e716d</testCaseGuid>

@@ -14,7 +14,7 @@ import com.kms.katalon.core.annotation.Keyword
 class SetValuesFromTable {
 
 
-	//Get info values
+	//Gets info values from table (use the real table from the client)
 	@Keyword
 	public static setInfoValues(String wsheet) throws IOException{
 
@@ -72,7 +72,7 @@ class SetValuesFromTable {
 
 
 
-	// Get asset contributions values and contribution types
+	// Gets asset contributions values and contribution types (use the real table from the client)
 	@Keyword
 	public static setAsetValues(String wsheet) throws IOException{
 
@@ -111,6 +111,7 @@ class SetValuesFromTable {
 	}
 
 
+	// Gets Market return value (use the real table from the client)
 	@Keyword
 	public static setReturnsValue(String wsheet) throws IOException{
 
@@ -133,7 +134,7 @@ class SetValuesFromTable {
 
 	}
 
-	//Get Starting Balance Value from the input sheet
+	//Gets Starting Balance Value from the table (use the real table from the client)
 	@Keyword
 	public static startingBalanceValue(String wsheet, int i) throws IOException{
 
@@ -148,8 +149,8 @@ class SetValuesFromTable {
 
 
 		double value = cell.getNumericCellValue()
-		
-		
+
+
 		//value = value * 1000
 
 		int value1 = value
@@ -159,7 +160,7 @@ class SetValuesFromTable {
 		return startingBalance
 	}
 
-	//Get Growth Value from the input sheet
+	//Gets Growth Value from the table (use the real table from the client)
 	@Keyword
 	public static growthValue(String wsheet, int i) throws IOException{
 		int rowNum = 15+i

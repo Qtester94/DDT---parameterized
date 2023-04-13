@@ -43,7 +43,7 @@ import elite.SetValuesFromTable
 
 class SetContribution {
 	/**
-	 * Set contribution dependent on the type
+	 * Sets contribution (type and values) dependent on the type from table (use the real table from the client)
 	 */
 	@Keyword
 	public void Set (String wsheet) {
@@ -77,7 +77,7 @@ class SetContribution {
 		else if (contributionType == 'Maximum Allowable') {
 			WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))
 
-			WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/div_Maximum Allowable'))
+			WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/ContributiomDropdown/New/div_Maximum Allowable1'))
 		}
 		else if (contributionType == '% of Salary') {
 			WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/div_DownArrow-Contribution'))

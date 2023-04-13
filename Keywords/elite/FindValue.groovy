@@ -12,7 +12,9 @@ import com.kms.katalon.core.annotation.Keyword
 
 
 class FindValue {
-	// Read all Cell value from the row
+
+
+	// Reads all Cell value from the row (use test table)
 	@Keyword
 	public void cellread() throws IOException{
 
@@ -35,7 +37,8 @@ class FindValue {
 		}
 	}
 
-	// Find Value from from row, and return Column value and Index value from row
+
+	// Finds Value from from row, and return Column value and Index value for cell (use test table)
 	@Keyword
 	public void findValueinRow(String value, int rowNum) throws IOException{
 
@@ -116,7 +119,9 @@ class FindValue {
 	//
 	//	}
 
-	// Method to find value in the table (need input value)
+
+
+	// Method to find value in the table (need input value), use findValueinRow method (use test table)
 	@Keyword
 	public void findValueinTable(String value) throws IOException{
 
@@ -139,7 +144,7 @@ class FindValue {
 
 	}
 
-	// Find Value from from row, and return Column value and Index value from row
+	// Finds Value from from row, and return Column value and Index value from Cell (use the real table from the client)
 	@Keyword
 	public static findValueinRowSC(String value, String value2, int rowNum) throws IOException{
 
@@ -190,7 +195,7 @@ class FindValue {
 
 
 
-	// Method to find value in the table (need input value)
+	// Method to find value in the table (need input value), use findValueinRow method (use the real table from the client)
 	@Keyword
 	public static findValueinTableSC(String value, String value2) throws IOException{
 

@@ -42,78 +42,76 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import elite.SetValuesFromTable
 
 class SetReturns {
+
 	
+	//Sets market return value
 	@Keyword
 	public void Set (String wsheet) {
-		
-	
+
+
 		String returns = new elite.SetValuesFromTable().setReturnsValue(wsheet)
-		
+
 		System.out.println("Returns is: "+returns)
-		
-		
+
+
 		WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'))
-		
-		
+
+
 		if (returns == "2") {
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 40,
-			0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 40,
+					0)
 		}
-		
+
 		else if (returns == "3") {
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 70,
-			0)
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 70,
+					0)
 		}
-		
+
 		else if (returns == "4") {
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 90,
-			0)
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 90,
+					0)
 		}
-		
+
 		else if (returns == "5") {
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 110,
-			0)
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 110,
+					0)
 		}
-		
+
 		else if (returns == "6") {
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 135,
-			0)
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 135,
+					0)
 		}
-		
+
 		else if (returns == "7") {
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 150,
-			0)
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 150,
+					0)
 		}
-		
+
 		else if (returns == "8") {
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
-			0)
-		
-		WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 180,
-			0)
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), -250,
+					0)
+
+			WebUI.dragAndDropByOffset(findTestObject('Elite/Page_Plan - RetireUp Elite/div_Before Retirement_rc-slider-handle'), 180,
+					0)
 		}
-		
-			
-		
-			
 	}
 }

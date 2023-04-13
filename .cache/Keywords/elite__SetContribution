@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "A1547C628661BF077D7E9FBEDFE4BFCD",
+  "keywordFileContentHash": "6D38562E183201AA5FA9907D17FF1518",
   "keywordClasses": [
     {
       "name": "elite.SetContribution",
@@ -20,11 +20,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": "/**\n\t * Set contribution dependent on the type\n\t */"
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

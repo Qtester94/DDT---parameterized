@@ -43,6 +43,7 @@ import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
 class WriteValueInTable {
 
+	//Writes the index value (from search) to the Scenario sheet (use the test table)
 	@Keyword
 	public void WriteinCell(int value, String wsheet) throws IOException{
 
@@ -61,8 +62,8 @@ class WriteValueInTable {
 		workbook.write(fos)
 		fos.close()
 	}
-	
-	
+
+	//Writes the index value (from search) to the Scenario sheet (use the real table from the client)
 	@Keyword
 	public void WriteinCellCS(double value, String wsheet) throws IOException{
 
@@ -72,7 +73,8 @@ class WriteValueInTable {
 		XSSFSheet sheet = workbook.getSheet(wsheet)
 		XSSFRow row = sheet.getRow(6)
 		XSSFCell cell = row.getCell(1)
-
+		
+		//value = value+100
 		println(value)
 
 		cell.setBlank()
@@ -81,5 +83,4 @@ class WriteValueInTable {
 		workbook.write(fos)
 		fos.close()
 	}
-	
 }

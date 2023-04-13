@@ -6,16 +6,16 @@
    <elementGuidId>2ce4721f-d815-42d0-9bc8-dc0e4341d826</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>#react-select-8-option-2</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='react-select-8-option-2']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>id(&quot;react-select-8-option-2&quot;)[count(. | //*[@id = 'react-select-8-option-2' and (text() = 'Monthly' or . = 'Monthly')]) = count(//*[@id = 'react-select-8-option-2' and (text() = 'Monthly' or . = 'Monthly')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value>#react-select-8-option-2</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1dd7b411-5ea0-4368-ba88-966533d5bbe9</webElementGuid>
+      <webElementGuid>7e62202c-eff3-47bc-9dfe-13eefe7b2370</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1gxwjea-option</value>
-      <webElementGuid>21508be4-d14c-4beb-80da-ec479e876954</webElementGuid>
+      <webElementGuid>16c5029e-d13b-48b3-b55c-6f873141c7c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>82a2c8f3-c052-4b25-abb6-8a4a7f82fd14</webElementGuid>
+      <webElementGuid>7cc0eedc-c730-4ee5-bfe7-71bcbecd18c8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>react-select-8-option-2</value>
-      <webElementGuid>86f0dcb4-530a-4c7d-b9fb-bd196852f999</webElementGuid>
+      <webElementGuid>5cd815c3-2550-4cb7-937b-922c38cc414a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>951d2e4e-354b-4154-8479-c320a410d70e</webElementGuid>
+      <webElementGuid>fc4cd60b-ce1d-4ad4-8972-71503076eb2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Monthly</value>
-      <webElementGuid>aba247e4-9f7e-41ce-bc12-19e56fb5058c</webElementGuid>
+      <webElementGuid>f63c2cd2-1ea6-4c07-ab50-d140e99b320d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;react-select-8-option-2&quot;)</value>
-      <webElementGuid>afb85298-e560-49e3-a8b5-fdd1ed709816</webElementGuid>
+      <webElementGuid>ca890f16-e79d-4dbc-b3e5-2b784286f447</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='react-select-8-option-2']</value>
-      <webElementGuid>afce0d13-65ae-4c6a-81ed-a3f9662bd550</webElementGuid>
+      <webElementGuid>13c2c92b-0aa4-46eb-b3fe-ca9c953a9a7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='react-select-8-listbox']/div/div[3]</value>
-      <webElementGuid>261375ff-e238-4e55-af3a-fae3f253c142</webElementGuid>
+      <webElementGuid>52fb4e48-c8ba-4001-af20-dca49dd0ba3c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Allowable'])[2]/following::div[1]</value>
-      <webElementGuid>56aa8b12-b2bc-47da-bc04-cf2204d56747</webElementGuid>
+      <webElementGuid>462122e9-64d1-4bff-97a4-d9062128914b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/following::div[2]</value>
-      <webElementGuid>415cb407-ae5e-4f3f-a3e8-51fa10c458a7</webElementGuid>
+      <webElementGuid>bdc0f0b3-caeb-4da1-a394-45725d2a7d70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual'])[1]/preceding::div[1]</value>
-      <webElementGuid>dca77faa-fa79-4560-8769-1366f76e1100</webElementGuid>
+      <webElementGuid>37dceeaa-1edb-4026-801a-baae056eeefb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='% Salary'])[1]/preceding::div[2]</value>
-      <webElementGuid>9a3ef5b4-8338-4cae-a816-b8966b9bf1f6</webElementGuid>
+      <webElementGuid>e9133109-ebe3-45a8-82df-d41584e3c6b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Monthly']/parent::*</value>
-      <webElementGuid>ed61e582-f77d-472e-8f50-03acdb717dcd</webElementGuid>
+      <webElementGuid>d8b7f06c-c016-41a2-ab20-bb1b3d3216ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div[2]/div/div[3]</value>
-      <webElementGuid>cbd653db-fed2-4886-9103-7fa931ee2684</webElementGuid>
+      <webElementGuid>38b6b05f-d920-415d-9d4d-822e4fa9973f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'react-select-8-option-2' and (text() = 'Monthly' or . = 'Monthly')]</value>
-      <webElementGuid>0e493aa7-ad60-4986-b695-42d60778d2d1</webElementGuid>
+      <webElementGuid>b09d7e21-3d78-4c8d-a08b-f026cf60547e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

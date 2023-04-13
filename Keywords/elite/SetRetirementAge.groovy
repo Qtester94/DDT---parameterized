@@ -9,16 +9,16 @@ import org.openqa.selenium.Keys as Keys
 class SetRetirementAge {
 
 
-	// Method to set Start and End retirement age
+	// Sets Start and End retirement age 
 	@Keyword
 	def SetRetirement(String strAge, String endAge) {
 
 		WebUI.sendKeys(findTestObject('Elite/Page_Information - RetireUp Elite/input_Years_client.age'), Keys.chord(Keys.TAB, Keys.DELETE,
 				Keys.ENTER))
-		
+
 		WebUI.sendKeys(findTestObject('Elite/Page_Information - RetireUp Elite/input_Years_client.age'), Keys.chord(Keys.TAB, Keys.DELETE,
-			Keys.ENTER))
-		
+				Keys.ENTER))
+
 		WebUI.sendKeys(findTestObject('Elite/Page_Information - RetireUp Elite/input_Years_client.age'), Keys.chord(Keys.TAB, Keys.DELETE,
 				strAge, Keys.TAB))
 

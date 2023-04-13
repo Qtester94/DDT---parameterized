@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Get the market return value from the application, get the index from the table, and write it back to the table</description>
-   <name>GetValueAndChangeInTable</name>
+   <name>04GetValueAndChangeInTable</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e778ef45-6b7e-4c70-8695-184f79e728f4</testCaseGuid>

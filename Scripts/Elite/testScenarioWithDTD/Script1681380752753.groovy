@@ -17,21 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-////Get values for Info page
-infovalues = CustomKeywords.'elite.SetValuesFromTable.setInfoValues'(wsheet)
 
-age = (infovalues[0])
-
-strAge = (infovalues[1])
-
-endAge = (infovalues[2])
-
-salary = (infovalues[3])
-
-increases = (infovalues[4])
-
-System.out.println((((((((('age:' + age) + ' | strAge: ') + strAge) + ' | endAge: ') + endAge) + '| salary: ') + salary) + 
-    '| increases: ') + increases)
 
 //Start application
 WebUI.openBrowser('')
@@ -50,8 +36,41 @@ WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireU
 
 WebUI.click(findTestObject('Object Repository/Elite/Page_Client Search - RetireUp Elite/a_Current Plan'))
 
+'Source'
+WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/a_Sources'))
+
+// Set Contrabition for asset
+WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_Employer_AssetsList__EditButton-sc-n_517339'))
+
+'Set Contrabution'
+CustomKeywords.'elite.SetContribution.Set'(wsheet)
+
+WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_CONTINUE TO ALLOCATIONS'))
+
+WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/div_Enter ManuallyEnter individual holdings_821d09'))
+
+WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_DONE'))
+
+WebUI.click(findTestObject('AIG/Page_Sources - Retirement Pathfinder/planPage-sideNavigation'))
+
 'Info page'
 WebUI.click(findTestObject('Object Repository/Elite/Page_Plan - RetireUp Elite/a_Info'))
+
+////Get values for Info page
+infovalues = CustomKeywords.'elite.SetValuesFromTable.setInfoValues'(wsheet)
+
+age = (infovalues[0])
+
+strAge = (infovalues[1])
+
+endAge = (infovalues[2])
+
+salary = (infovalues[3])
+
+increases = (infovalues[4])
+
+System.out.println((((((((('age:' + age) + ' | strAge: ') + strAge) + ' | endAge: ') + endAge) + '| salary: ') + salary) +
+	'| increases: ') + increases)
 
 //Set info page
 WebUI.setText(findTestObject('Object Repository/Elite/Page_Information - RetireUp Elite/input_Years_client.age'), age)
@@ -69,24 +88,6 @@ WebUI.setText(findTestObject('Object Repository/Elite/Page_Information - RetireU
 WebUI.click(findTestObject('Object Repository/Elite/Page_Information - RetireUp Elite/a_Continue'))
 
 WebUI.click(findTestObject('Elite/Page_Sources - RetireUp Elite/a_Plan'))
-
-'Source'
-WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/a_Sources'))
-
-// Set Contrabition for asset
-WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_Employer_AssetsList__EditButton-sc-n_517339'))
-
-'Set Contrabution'
-CustomKeywords.'elite.SetContribution.Set'(wsheet)
-
-WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_CONTINUE TO ALLOCATIONS'))
-
-WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/div_Enter ManuallyEnter individual holdings_821d09'))
-
-WebUI.click(findTestObject('Object Repository/Elite/Page_Sources - RetireUp Elite/button_DONE'))
-
-'Plan Page'
-WebUI.click(findTestObject('AIG/Page_Sources - Retirement Pathfinder/planPage-sideNavigation'))
 
 //Set Plan page
 WebUI.click(findTestObject('Elite/Page_Plan - RetireUp Elite/button_Tax 18'))
@@ -145,10 +146,10 @@ double writeToTable = Double.valueOf(realindex)
 CustomKeywords.'elite.WriteValueInTable.WriteinCellCS'(writeToTable, wsheet)
 
 // Verify applicatin values (Starting balance and Growth) with table values
-int tablesrow = strAge - endAge
+
 
 'Verify Starting Balance and Growth'
-while (cell < tablesrow) {
+while (cell < 10) {
     System.out.println('Cell: ' + cell)
 
     startingBalanceA = WebUI.getText(findTestObject('Elite/Page_Plan - RetireUp Elite/TableVerify/div_StartingBalance', 

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Set Contribution to value from the table</description>
+   <name>02SetContrabution</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>78ad53cb-8048-4ade-9bca-e5ac5bb0b3a5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d86c4379-fb66-4ea4-b52f-8fc83e8d9e1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Scenario5'</defaultValue>
+      <description></description>
+      <id>d86c4379-fb66-4ea4-b52f-8fc83e8d9e1d</id>
+      <masked>false</masked>
+      <name>wsheet</name>
+   </variable>
+</TestCaseEntity>

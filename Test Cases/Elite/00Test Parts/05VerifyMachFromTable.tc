@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
-   <name>VerifyMachFromTable</name>
+   <description>Checks whether the values from the application match the values from the table</description>
+   <name>05VerifyMachFromTable</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a15878e3-24ac-4828-9ff3-756b393da835</testCaseGuid>
@@ -70,7 +70,7 @@
       <name>growthT</name>
    </variable>
    <variable>
-      <defaultValue>'Scenario4'</defaultValue>
+      <defaultValue>'Scenario1'</defaultValue>
       <description></description>
       <id>0067e92b-c1a6-406b-a28f-c6c98daba654</id>
       <masked>false</masked>

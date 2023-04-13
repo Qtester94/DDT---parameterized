@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Annual</name>
+   <name>div_Maximum Allowable1</name>
    <tag></tag>
-   <elementGuidId>b73e6411-5bda-46e2-a7ed-c58559c0ffb8</elementGuidId>
+   <elementGuidId>ea771beb-ec2f-4d9b-8c0f-ea0e2a5f9703</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#react-select-8-option-3</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'react-select-8-option-3' and (text() = 'Annual' or . = 'Annual')]</value>
+         <value>#react-select-8-option-1</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='react-select-8-option-3']</value>
+         <value>//div[@id='react-select-8-option-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>6c8a7e41-f950-4888-909e-7575aa931cc0</webElementGuid>
+      <webElementGuid>08daddb8-413b-4c0d-b935-75f0e6ddb7f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value> css-1gxwjea-option</value>
-      <webElementGuid>49e3b7e3-5c21-40da-b07c-b4bd68ca068b</webElementGuid>
+      <webElementGuid>043ae980-f1ca-4bd7-a184-1e2de1c1cf12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,15 +38,15 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8526c518-9d37-4f10-977f-d67a376b3686</webElementGuid>
+      <webElementGuid>9bd6046e-8661-4d7b-856c-094c13516143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>react-select-8-option-3</value>
-      <webElementGuid>1d306923-9902-438e-aea5-42f1bc32ee99</webElementGuid>
+      <value>react-select-8-option-1</value>
+      <webElementGuid>4a6b3013-b3e3-422a-9cc0-38d16fd12681</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,94 +54,94 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>dd5b3d38-c3cf-4d25-92e1-ad0093cdfe55</webElementGuid>
+      <webElementGuid>f9028a20-5744-4232-8c3a-e64d26b29818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Annual</value>
-      <webElementGuid>81ae9794-5b3c-4c09-bfa3-eaf60f1ca138</webElementGuid>
+      <value>Maximum Allowable</value>
+      <webElementGuid>baadc8fe-8d4f-4149-803c-ed6c70d5b763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;react-select-8-option-3&quot;)</value>
-      <webElementGuid>4cacd87f-1816-4a5c-9f18-9cd5a6945da6</webElementGuid>
+      <value>id(&quot;react-select-8-option-1&quot;)</value>
+      <webElementGuid>443e027e-8ada-468d-a682-0014b6cee20c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='react-select-8-option-3']</value>
-      <webElementGuid>3fc205b7-fd57-4b6c-bc0f-b7b0191dc12e</webElementGuid>
+      <value>//div[@id='react-select-8-option-1']</value>
+      <webElementGuid>0b527a47-1c8c-4359-b962-66858451bf26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='react-select-8-listbox']/div/div[4]</value>
-      <webElementGuid>c37a897b-740d-4471-b26f-a29b048abc18</webElementGuid>
+      <value>//div[@id='react-select-8-listbox']/div/div[2]</value>
+      <webElementGuid>1023763b-4c5b-454f-bea7-46a79eea622f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monthly'])[2]/following::div[1]</value>
-      <webElementGuid>5bc535d2-607d-4a20-86ed-8a0b5914b4b6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='None'])[1]/following::div[1]</value>
+      <webElementGuid>0bcefc0d-0316-4baa-bd6f-75e495850f1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maximum Allowable'])[1]/following::div[2]</value>
-      <webElementGuid>50373b29-ea26-4624-9c56-b4fabd0d8a6c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='% Salary'])[1]/following::div[7]</value>
+      <webElementGuid>b2c9a1ed-6786-4455-b4f6-86f898fd10ac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='% Salary'])[1]/preceding::div[1]</value>
-      <webElementGuid>9ffe2d79-b464-4b84-899b-5d7edbe4a7da</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Monthly'])[1]/preceding::div[1]</value>
+      <webElementGuid>5c09cc1f-40ff-4606-80e5-ab27a8ef42da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='The value must be greater than zero.'])[1]/preceding::div[3]</value>
-      <webElementGuid>7c63f94c-9655-4b1d-8228-bf71dfe9d498</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Annual'])[1]/preceding::div[2]</value>
+      <webElementGuid>74e72265-33e0-49d8-89b2-2308a204779d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Annual']/parent::*</value>
-      <webElementGuid>3d77c438-1303-47f4-9beb-f6103d81b9e8</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Maximum Allowable']/parent::*</value>
+      <webElementGuid>c2a63057-ea94-4623-be49-b989e853fbc0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div/div[4]</value>
-      <webElementGuid>7f1514a8-ecb9-4bc8-af5f-e93f823a1daa</webElementGuid>
+      <value>//div[5]/div/div/div[2]/div/div/div[2]/div/div[2]</value>
+      <webElementGuid>e1d87423-9dc4-4078-b7ee-93ead49ff79d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'react-select-8-option-3' and (text() = 'Annual' or . = 'Annual')]</value>
-      <webElementGuid>16e3b7cb-5524-4945-b865-2ecd11fdc5fa</webElementGuid>
+      <value>//div[@id = 'react-select-8-option-1' and (text() = 'Maximum Allowable' or . = 'Maximum Allowable')]</value>
+      <webElementGuid>90dbe6cb-1d90-4c40-806a-961466543df0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

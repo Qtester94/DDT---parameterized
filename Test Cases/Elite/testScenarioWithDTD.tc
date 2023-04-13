@@ -1,176 +1,185 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Set all values from table, change index in tbale and verify Starting balance and Growth values</description>
-   <name>testScenario</name>
+   <name>testScenarioWithDTD</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>79e5117a-4346-47f6-bca5-18b70e942763</testCaseGuid>
+   <testCaseGuid>795d5635-bc5e-4261-9622-56cc8051c093</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>c758bf9b-000e-4e0c-a84c-9c97ac0fe978</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Elite/EliteScenarioSheets</testDataId>
+   </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>4be04a7c-fd22-41bf-96cb-2a8fac620d03</variableId>
+      <variableId>f09ffaa3-24db-455c-a191-f4c1cfb6ad27</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b2b1ad61-25db-4943-9931-59d0d747b890</variableId>
+      <variableId>db26a500-8bdd-4fb4-a9b1-9f1487cdadb4</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0c2d41ed-2553-432f-9f7b-4d724e4cbfcb</variableId>
+      <variableId>997403cd-ec0a-440d-817d-6dcdfc87c771</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fe7a2e5e-8a70-41e4-91bd-0a00b5fa0a17</variableId>
+      <variableId>28e345ae-676f-4177-ae42-d9a1d30399fc</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>5352baef-5139-4640-837d-1cfee5a1d773</variableId>
+      <variableId>e4345d5c-30af-4292-985d-31f7b0d1b549</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>c758bf9b-000e-4e0c-a84c-9c97ac0fe978</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Single</value>
+      <variableId>7b73a76c-5c1a-4030-9218-3a07af22859f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>3ad3491b-0e94-4978-b5af-b1f300cb8461</variableId>
+      <variableId>f2f4ca7a-3eeb-4e17-a307-d19efd63f944</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>75735b7a-e239-4a68-8a21-cbaef46fdda4</variableId>
+      <variableId>91ec6f8a-8e1a-42d6-b5ff-27659808e891</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>06ab4d2e-618c-4f5c-9584-802f9c002999</variableId>
+      <variableId>0f2534bf-4346-4ae2-ba06-280d22011e80</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0e9a4f09-e188-4d7d-93b1-8ee26f00b57c</variableId>
+      <variableId>8a465e3b-769a-4ee6-81ee-025185cc2871</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>876d8d53-28fa-491b-afb9-18df4a877bfb</variableId>
+      <variableId>148e21c9-439f-4bba-818d-db24cbe76736</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b5a32e7c-970c-4430-b4da-3b4148310921</variableId>
+      <variableId>e807109b-92d2-44b3-a0f4-e59957352fdd</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>69d19b2d-928f-4a24-8893-3d2e3ba2ab66</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>976a67bc-c04a-479e-b9be-23448fce5a7b</variableId>
+      <variableId>2e102cc8-420b-499a-b2bf-da6e01c010f4</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>4be04a7c-fd22-41bf-96cb-2a8fac620d03</id>
+      <id>f09ffaa3-24db-455c-a191-f4c1cfb6ad27</id>
       <masked>false</masked>
       <name>strAge</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b2b1ad61-25db-4943-9931-59d0d747b890</id>
+      <id>db26a500-8bdd-4fb4-a9b1-9f1487cdadb4</id>
       <masked>false</masked>
       <name>endAge</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0c2d41ed-2553-432f-9f7b-4d724e4cbfcb</id>
+      <id>997403cd-ec0a-440d-817d-6dcdfc87c771</id>
       <masked>false</masked>
       <name>salary</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fe7a2e5e-8a70-41e4-91bd-0a00b5fa0a17</id>
+      <id>28e345ae-676f-4177-ae42-d9a1d30399fc</id>
       <masked>false</masked>
       <name>increases</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>5352baef-5139-4640-837d-1cfee5a1d773</id>
+      <id>e4345d5c-30af-4292-985d-31f7b0d1b549</id>
       <masked>false</masked>
       <name>age</name>
    </variable>
    <variable>
-      <defaultValue>'Scenario1'</defaultValue>
+      <defaultValue>'Scenario2'</defaultValue>
       <description></description>
-      <id>3ad3491b-0e94-4978-b5af-b1f300cb8461</id>
+      <id>7b73a76c-5c1a-4030-9218-3a07af22859f</id>
       <masked>false</masked>
       <name>wsheet</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>75735b7a-e239-4a68-8a21-cbaef46fdda4</id>
+      <id>f2f4ca7a-3eeb-4e17-a307-d19efd63f944</id>
       <masked>false</masked>
       <name>marketReturn1</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>06ab4d2e-618c-4f5c-9584-802f9c002999</id>
+      <id>91ec6f8a-8e1a-42d6-b5ff-27659808e891</id>
       <masked>false</masked>
       <name>marketReturn2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>0e9a4f09-e188-4d7d-93b1-8ee26f00b57c</id>
+      <id>0f2534bf-4346-4ae2-ba06-280d22011e80</id>
       <masked>false</masked>
       <name>startingBalanceA</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>876d8d53-28fa-491b-afb9-18df4a877bfb</id>
+      <id>8a465e3b-769a-4ee6-81ee-025185cc2871</id>
       <masked>false</masked>
       <name>startingBalanceT</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b5a32e7c-970c-4430-b4da-3b4148310921</id>
+      <id>148e21c9-439f-4bba-818d-db24cbe76736</id>
       <masked>false</masked>
       <name>growthA</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>69d19b2d-928f-4a24-8893-3d2e3ba2ab66</id>
+      <id>e807109b-92d2-44b3-a0f4-e59957352fdd</id>
       <masked>false</masked>
       <name>growthT</name>
    </variable>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
-      <id>976a67bc-c04a-479e-b9be-23448fce5a7b</id>
+      <id>2e102cc8-420b-499a-b2bf-da6e01c010f4</id>
       <masked>false</masked>
       <name>cell</name>
    </variable>

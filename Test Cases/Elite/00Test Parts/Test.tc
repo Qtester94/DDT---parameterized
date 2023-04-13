@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>SetContrabution</name>
+   <name>Test</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>78ad53cb-8048-4ade-9bca-e5ac5bb0b3a5</testCaseGuid>
+   <testCaseGuid>6acf8e31-3875-4283-a83e-de1c82fe910d</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d86c4379-fb66-4ea4-b52f-8fc83e8d9e1d</variableId>
+      <variableId>b3c405a5-7482-483d-a1b7-efe2fb274489</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Scenario3'</defaultValue>
+      <defaultValue>'Scenario1'</defaultValue>
       <description></description>
-      <id>d86c4379-fb66-4ea4-b52f-8fc83e8d9e1d</id>
+      <id>b3c405a5-7482-483d-a1b7-efe2fb274489</id>
       <masked>false</masked>
       <name>wsheet</name>
    </variable>
